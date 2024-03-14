@@ -1,0 +1,214 @@
+/*/section-2/*/
+.section-2 {
+    padding: 0%;
+    margin: 30px;
+}
+
+.container-navbar {
+    max-width: 12000px;
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    margin: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*/navbar/*/
+.w-100 {
+    width: 100%;
+    margin-left: 180px;
+}
+
+.container-navbar {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.navbar-contact-details-module {
+    display: flex;
+    align-items: center;
+}
+
+.call-us-details {
+    width: 60%;
+}
+
+.navbar-icon {
+    width: 40%;
+}
+
+.logo-module {
+    width: 60%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #f5f5f5;
+    color: #60636d;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Styling for navigation links and dropdowns */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    /* Change text color for better visibility */
+    padding: 10px;
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-list:hover li {
+    background-color: #888;
+    /* Change background color on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-bar {
+    background-color: #60636d;
+    width: 100%;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: center;
+}
+.calling-no {
+    font-family: lato-regular;
+    color: #60636d;
+}
+.bordered-table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  .bordered-table td, .bordered-table th {
+    border: 1px solid black;
+    padding: 4px;
+   
+  }
+  
+  /* Style the first cell of each row */
+  .bordered-table tr td:first-child {
+    text-align: center;
+  }
+  
+  /* Style the last cell of each row */
+  .bordered-table tr td:last-child {
+    text-align: right;
+  }
+  .icon-image {
+    width: 32px; /* Set the width of the icon */
+    height: 32px; /* Set the height of the icon */
+    margin-right: 8px; /* Add margin to the right of the icon */
+    border-radius: 50%; /* Apply rounded corners to make the icon circular */
+    border: 1px solid #ccc; /* Add a border to the icon */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}

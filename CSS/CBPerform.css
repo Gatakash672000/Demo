@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.section-2{
+  padding: 0%;
+  margin: 30px;
+}
+.container-navbar {
+  max-width: 12000px;
+  margin: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+h4{
+  margin: 40px;
+  text-align: center;
+  font-size: 22px;
+}
+/*/navbar/*/
+.w-100 {
+  width: 90%;
+}
+
+.container-navbar {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.col-6 {
+  width: 150%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.navbar-contact-details-module {
+  display: flex;
+  align-items: center;
+}
+
+.call-us-details {
+  width: 60%;
+}
+
+.navbar-icon {
+  width: 40%;
+}
+
+.logo-module {
+  width: 60%;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #f5f5f5;
+  color: #60636d;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-6-1{
+  padding-left: 240px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 8px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Styling for navigation links and dropdowns */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff; /* Change text color for better visibility */
+  padding: 10px;
+  display: inline-block;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-list:hover li {
+  background-color: #888; /* Change background color on hover */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu-bar {
+  background-color: #60636d;
+  width: 100%;
+}
+.menu-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.style-171 {
+  flex-basis:0px; -webkit-box-flex:1; flex-grow:1; max-width:100%; position:relative; width: 100%; padding-right:15px; padding-left:15px; box-sizing:border-box;
+}
+
+.style-172 {
+  display:block; box-sizing:border-box;
+}
+
+.style-173 {
+  display:block; box-sizing:border-box;
+}
+
+.style-174 {
+  display:block; box-sizing:border-box;
+}
+
+.style-175 {
+  font-family:lato-bold; font-size:30px; margin-bottom:25px; margin-top:0px; display:block; font-weight:500; line-height:36px; color:rgb(69, 74, 78); box-sizing:border-box;
+}
+
+.style-176 {
+  box-sizing:border-box; counter-reset:footnotes 0;
+}
+
+.style-177 {
+  box-sizing:border-box;
+}
+
+.style-178 {
+  width: 1519px; left: -10px; left:-10.0px; transition:background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s; margin-top:0px; margin-bottom:0px; padding:0px 0px 0px 0px; background-image:url('https://www.citybluetechnologies.com/wp-content/uploads/2020/06/Bitmap.png'); background-size:cover; --swiper-theme-color: #000; --swiper-navigation-size: 44px; --swiper-pagination-bullet-size: 6px; --swiper-pagination-bullet-horizontal-gap: 6px; position:relative; --flex-direction: initial; --flex-wrap: initial; --justify-content: initial; --align-items: initial; --align-content: initial; --gap: initial; --flex-basis: initial; --flex-grow: initial; --flex-shrink: initial; --order: initial; --align-self: initial; flex-basis:auto; flex-grow:0; flex-shrink:1; order:0; align-self:auto; box-sizing:border-box; display:block;
+}
+
+.style-179 {
+  min-height:400px; align-items:center; display:flex; margin-right: auto; margin-left: auto; position:relative; box-sizing:border-box;
+}
+
+.style-180 {
+  width: 100%; --swiper-theme-color: #000; --swiper-navigation-size: 44px; --swiper-pagination-bullet-size: 6px; --swiper-pagination-bullet-horizontal-gap: 6px; position:relative; min-height:1px; display:flex; --flex-direction: initial; --flex-wrap: initial; --justify-content: initial; --align-items: initial; --align-content: initial; --gap: initial; --flex-basis: initial; --flex-grow: initial; --flex-shrink: initial; --order: initial; --align-self: initial; flex-basis:auto; flex-grow:0; flex-shrink:1; order:0; align-self:auto; box-sizing:border-box;
+}
+
+.style-181 {
+  padding:10px; display:flex; position:relative; width: 100%; flex-wrap:wrap; align-content:flex-start; box-sizing:border-box;
+}
+
+
+

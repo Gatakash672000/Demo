@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Files Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: white;
+            color:  #60636d;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        footer {
+            color: white;
+            flex-basis: 100%;
+            text-align: center;
+            padding: 10px;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+             max-width: 100%; 
+            /* margin: 50px 20px; */
+            padding: 20px;
+            height: 100%;
+            /* background-color: #fff; */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container,
+        .info-container {
+            flex-basis: 50%; /* Adjust the width as needed */
+        }
+        
+        .form-container {
+            margin-right: 20px;  /* Add some space between form and info */
+            padding: 20px;
+        }
+
+        .info-container {
+            flex-basis: 50%;
+            border-left: 1px solid #ccc;
+            padding: 20px;/* Add some space between line and text */
+        }
+        .info-container p {
+            /* text-align: right;  */ /* Align text to the right */
+        }
+        
+        .info-container h2 {
+            margin-top: 0;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            color: #0056b3;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        
+        select {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button {
+            display: block;
+            /* width: 100%; */
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        .horizontal-line {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        margin: 10px 0;
+        }
+</style>
+</head>
+<body class="style-0" data-elementor-device-mode="desktop">
+    <header>
+        <div class="container-navbar">
+            <div class="row">
+                <div class="col-6-1">
+                    <div class="logo-module">
+                        <img src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg"
+                            class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="navbar-contact-details-module">
+                        <div class="call-us-details">
+                            <h2>Call us <a href="#">78456130</a></h2>
+                        </div>
+                        <div class="search-container">
+                            <input type="text" placeholder="Search..." name="search" class="search-input">
+                            <button type="submit" class="search-button">
+                                <img src="C:\Users\ROG\Downloads\City Blue Technologies\images\download.png">
+                            </button>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#">
+                                <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-01.png"
+                                    alt="">
+                            </a>
+                            <a href="mailto:info@citybluetech.com">
+                                <img src="C:\Users\ROG\Downloads\City Blue Technologies\images\Cityblue-Website-icon-02.png"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-bar">
+                <div class="container-navbar">
+                    <ul class="nav-list">
+                        <li class="dropdown">
+                            <a href="#">COPIERS PLOTTERS & PRINTERS</a>
+                            <div class="dropdown-content">
+                                <a href="#">Small And Large Format Copiers</a>
+                                <a href="#">Small Format Printers</a>
+                                <a href="#">Large Format Printers</a>
+                                <a href="#">Large Format Scanners</a>
+                                <a href="#">Aperture Card Scanners</a>
+                                <a href="#">Large Format Cutters</a>
+                            </div> 
+                        </li>
+                    </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="#">SUPPLIES</a>
+                        <div class="dropdown-content">
+                            <a href="#">Printing Supplies</a>
+                            <a href="#">Océ</a>
+                            <a href="#"> Canon</a>
+                            <a href="#"> Epson</a>
+                        </div> 
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="service(palavi).html">SERVICE & SUPPORT</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="#">PRINTING SERVICES</a>
+                        <div class="dropdown-content">
+                            <a href="COLOR_PRINTING(Abhay).html">Color Printing</a>
+                            <a href="large_form_printing(Abhay).html">Large Format Printing</a>
+                            <a href="large_form_copy(Abhay).html">Large Format Copying</a>
+                            <a href="scanning(Abhay).html">Scanning</a>
+                            <a href="finishinggggg(Abhay).html">Finishing Services</a>
+                        </div> 
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="#">DIGITAL SOLUTIONS</a>
+                        <div class="dropdown-content">
+                            <a href="digitalservices(Akash).html"> Digital Services</a>
+                            <a href="CBPerfrom(Akash).html">CB Perform</a>
+                            <a href="online(Akash).html">Online Planrooms</a>
+                            <a href="send us(nikhilesh).html">Send Us Files</a>
+                            <a href="bid doc(Nikhilesh).html">Bid Document Management</a>
+                            <a href="digital archiving(Nikhilesh).html">Digital Archiving & Hosting</a>
+                        </div> 
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="drone-services(Harsh).html">DRONE SERVICES</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="About(Harsh).html">ABOUT US</a>
+                        <div class="dropdown-content">
+                            <a href="#"> Overview</a>
+                            <a href="#">Lifecycle Solutions</a>
+                            <a href="#">History</a>
+                            <a href="#">People</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Corporate Social Responsibility</a>
+                            <a href="#">What’s New</a>
+                            <a href="#">Blogs</a>
+                        </div> 
+                    </li>
+                </ul>
+            </div>
+    </div>
+</div>
+    </header>
+
+
+<div class="container">
+    <div class="form-container">
+        <h2>Send Us Files</h2>
+        <h3>City Blue Technologies ShareFile</h3><br>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="recipient">Recipient:</label>
+                <select id="recipient" name="recipient">
+                    <option value="recipient1">Champaign, DPC</option>
+                    <option value="recipient2">Peoria, DPC</option>
+                    <option value="recipient3"> Quad Cities, DPC</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="files">Upload Files:</label>
+                <input type="file" id="files" name="files[]" multiple required>
+            </div>
+            <button type="submit">Send Files</button>
+        </form>
+    
+    </div>
+
+    <div class="info-container">
+        <div>
+            <h3>FTP Connection</h3>
+            <br> 
+            <p>File uploads made easy.</p>
+             <br> 
+            <p>CityBlue’s high-performance FTP server allows quick and secure file transfers for your print jobs.</p>
+             <br> 
+            <p>We offer separate archival, storage and retrieval services should you need these services.</p>
+            <br>
+        </div>
+        <div>
+            <details>
+                <summary>File Submission Guidelines</summary>
+                <br>
+                <p>The document or page sizes should be the same as the finished size of your printed piece. Do not incorporate bleed into the document size; just extend bleeds outside your page margins. Allow 1/8 inch (.125") bleed on all elements bleeding off the page size.</p><br>
+                <p>Whenever possible, please send a copy of the artwork as a PDF (Portable Document Format), EPS, or as an Illustrator file. Convert all fonts to outlines or curves whenever possible. If not possible, make sure to include all fonts with your file submission. Also make sure to send both screen and printer fonts.</p><br>
+                <p>When using an application that uses links, such as Adobe InDesign or QuarkXPress, please be sure to include the links (pictures/graphics) and all fonts (screen and printer fonts) with the file when you send it to us.</p><br>
+                <p>Please use vector artwork whenever possible. All bitmap images should be no less than 300 dpi and at 100% for maximum quality. Scans should be in CMYK or grayscale format.</p><br>
+                <p>Do not compress graphic files (i.e. LZW, JPEG, etc.). Compressed files can cause problems when processing through prepress systems. If you must compress files so that they will fit on a transport disk, please inform us that you have done so.</p><br>
+                <p>Make sure all elements that are printing in Spot Ink Colors print on their respective color plate. This can be checked by printing separation proofs instead of composite proofs.</p><br>
+                <p>Please include a color proof (black and white if color is not used) of your file to ensure the best quality and color match possible.</p><br>
+                <p>Please send an email to the appropriate location to which your project is being processed, with all instructions and contact information for your project.</p><br>
+                <ul>
+                    <li>For the Peoria <a href="mailto:peoria@citybluetech.com?Subject=Website%20Inquiry">peoria@citybluetech.com</a></li>
+                    <li>For the Rock Island (Quad Cities) DPC:  <a href="mailto:peoria@citybluetech.com?Subject=Website%20Inquiry">QC@citybluetech.com</a></li>
+                    <li>For the Champaign DPC: <a href="mailto:peoria@citybluetech.com?Subject=Website%20Inquiry">champaign@citybluetech.com</a></li>
+                    <li>For the St. Louis DPC: <a href="mailto:peoria@citybluetech.com?Subject=Website%20Inquiry">stlouisplots@citybluetech.com</a></li>
+
+                </ul>
+            </details><br><br>
+            <details>
+                <summary>FTP (Client PC and Mac)</summary><br>
+                
+                <p>The fastest and most reliable way to connect to ftp is through a client program. We recomended downloading the free program called FileZilla from the following location:<a href="http://filezilla-project.org/download.php">http://filezilla-project.org/download.php</a></p><br>
+
+                <p>Instructions for installing and using Filezilla can be found here: <a href="Instructions">Instructions</a> </p><br>
+                
+                <p>After the installation is complete, enter citybluetechnologies.com in the Host field. Enter the relevant username and password for your location found below. No port is required.</p><br>
+            </details><br><br>
+
+            <details>
+                <summary>Browser Instructions</summary><br>
+                
+                <p>If you are unable to install the FTP client in your particular case, your browser can be used to make an FTP connection.</p><br>
+
+                <p>1. Check to make sure your browser is set to view an FTP folder:</p><br>
+                <ul>
+                    <li>Internet Explorer</li> 
+                    <li>Go to "Tools"</li>
+                    <li>Select "Internet Options"</li>
+                    <li>Click on the "Advanced" tab</li>
+                    <li>nder the "Browsing" category, make sure "Enable folder view for FTP sites" is checked</li>
+                </ul>
+
+                <p>2. Click the following link or type it into your internet browser:<a href="ftp://www.citybluetechnologies.com">ftp://www.citybluetechnologies.com</a></p><br>
+                
+                <p>3. If you receive an error window titled "FTP File Folder Error"</p><br>
+                <ul>
+                    <li>Click "OK" to clear the window</li>
+                    <li>Go to "File" in your menu bar</li>
+                    <li>Select "Login As...</li>
+                </ul><br>
+                <p>4. Type in the user name and password as follows for the store location to which you are sending the file:</p><br>
+                <ul>
+                    <li>Peoria: | ID: peoria | Password: peoria1007</li>
+                    <li>Moline: | ID: moline | Password: moline1007</li>
+                    <li> Champaign: | ID: champaign | Password: champaign1007</li>
+                </ul><br>
+                <p>5. Go to "View" and select "Open FTP site in Windows Explorer</p><br>
+                <p> 6. Enter the same user name and password if prompted</p><br>
+                <p>7. Drag and drop the files you wish to send</p><br>
+
+            </details>
+
+            
+                
+        </div>
+    </div>
+
+
+    <footer style="display:block;box-sizing:border-box;">
+        <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+        <div style="background-color:rgb(96, 99, 109);width: 100%;height:1px;box-sizing:border-box;"></div>
+        <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+        <div style="background-color:rgb(255, 255, 255);box-sizing:border-box;">
+            <div style="max-width:1140px;padding-left:0px;padding-right:0px;padding-top:40px;padding-bottom:15px;width: 100%;margin-right: auto;margin-left: auto;box-sizing:border-box;">
+                <div style="display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;box-sizing:border-box;">
+                    <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                        <p style="font-size:14px;color:rgb(52, 66, 132);margin-top:0px;margin-bottom:16px;box-sizing:border-box;font-family:lato-bold;">100% Secure and Trusted Payment</p> <a href="https://www.paypal.com/us/verified/pal=orders%40citybluetech%2ecom" title="Official PayPal Seal" target="_blank" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-paypal.png" border="0" alt="Official PayPal Seal" title="Official PayPal Seal" width="70" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a href="#" style="text-decoration:none;font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;" onclick="javascript:window.open('https://www.rapidscansecure.com/siteseal/Verify.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356', 'Verification',  'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526'); return false;"><img alt="CompliAssure SiteSeal" src="https://www.rapidscansecure.com/siteseal/Seal.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356" border="0" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <!-- (c) 2005, 2019. Authorize.Net is a registered trademark of CyberSource Corporation --> <a href="https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com" onmouseover="window.status='http://www.authorize.net/'; return true;" onmouseout="window.status=''; return true;" onclick="window.open('https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" rel="noopener noreferrer" target="_blank" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;">
+                            <img src="https://verify.authorize.net/anetseal/images/secure90x72.gif" width="90" height="72" border="0" alt="Authorize.Net Merchant - Click to Verify" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /> </a>
+                        <!----><img src="" alt="Official Authorize.Net Seal" title="Official Authorize.Net Seal" /> 
+                    </div>
+                    <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;text-align:center;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                        <p style="font-size:14px;color:rgb(52, 66, 132);margin-top:0px;margin-bottom:16px;box-sizing:border-box;font-family:lato-bold;">Stay Informed</p> <a href="https://citybluetechnologies.com/about-us/#whatsnew" style="text-decoration:none solid rgb(69, 74, 78);color:rgb(69, 74, 78);margin-bottom:20px;font-size:14px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Subscribe to our Newsletter</a> <!-- change link: whats-new/ -->
+                    </div>
+                    <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                        <div style="margin:10px;text-align:center;box-sizing:border-box;">
+    
+    
+                            <p style="margin-bottom: 10px;font-size:14px;color:rgb(52, 66, 132);margin-top:0px;box-sizing:border-box;font-family:lato-bold;">Follow Us</p> <a target="_blank" href="http://www.facebook.com/pages/CityBlue/60518724578" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-facebook.png" alt="CityBlue Technologies Facebook icon" title="CityBlue Technologies Facebook link" style="background: white;max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://twitter.com/citybluetech" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-twitter.png" alt="CityBlue Technologies Twitter icon" title="CityBlue Technologies Twitter link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://www.linkedin.com/company/cityblue-technologies" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-linkedIn.png" alt="CityBlue Technologies Linkedin icon" title="CityBlue Technologies Linkedin link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://www.youtube.com/user/citybluetechnologies" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-youtube.png" alt="CityBlue Technologies Youtube icon" title="CityBlue Technologies Youtube link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="http://www.yelp.com/biz/cityblue-technologies-peoria" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-yelp.png" alt="CityBlue Technologies Yelp icon" title="CityBlue Technologies Yelp link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="www.instagram.com/cityblue_6" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-instagram.png" alt="CityBlue Technologies Instagram icon" title="CityBlue Technologies Instagram link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:rgb(238, 239, 240);box-sizing:border-box;">
+            <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+            <div style="background-color:rgb(96, 99, 109);width: 100%;height:1px;box-sizing:border-box;"></div>
+            <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+            <div style="max-width:1140px;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;width: 100%;margin-right: auto;margin-left: auto;box-sizing:border-box;">
+                <div style="display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;box-sizing:border-box;">
+                    <div style="-webkit-box-flex:0;flex:0 0 50%;max-width:50%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                        <p style="margin-bottom:0px;color:rgb(65, 73, 77);font-size:12px;margin-top:0px;box-sizing:border-box;font-family:lato-regular;">Copyright © 2021 CityBlue Technologies All Rights Reserved</p>
+                    </div>
+                    <div style="text-align:right;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                        <a href="https://citybluetechnologies.com/sitemap/" title="Site Map Page" style="text-decoration:none solid rgb(65, 73, 77);padding-right:5px;border-right:0.8px solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Site Map</a> <a href="https://citybluetechnologies.com/terms-of-use/" title="Terms &amp; Conditions Page" style="text-decoration:none solid rgb(65, 73, 77);padding-right:5px;border-right:0.8px solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Terms &amp; Conditions</a> <a href="https://citybluetechnologies.com/privacy-policy/" title="Privacy Policy Page" style="text-decoration:none solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+     
+
+</body>
+</html>
