@@ -105,3 +105,8 @@ input[name='slide_switch'] {
     opacity: 1;
     transform: scale(1);
 }
+@media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
