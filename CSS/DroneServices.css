@@ -769,12 +769,3 @@ a {
 
 
 
-
-
-
- 
-    @media only screen and (max-width: 600px) {
-      .container {
-        padding: 10px;
-      }
-    }
