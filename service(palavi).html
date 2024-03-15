@@ -4,666 +4,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <title>Service</title>
-    <style>
-        .section-2{
-          padding: 0%;
-          margin: 30px;
-        }
-        .container-navbar {
-          max-width: 12000px;
-          margin: 70px;
-          display: flex;
-          flex-wrap: wrap;
-      }
-      h4{
-          margin: 40px;
-          text-align: center;
-          font-size: 22px;
-      }
-      /*/navbar/*/
-      
-      .container-navbar {
-          width: 100%;
-          margin: auto;
-      }
-      
-      .row {
-          width: 100%;
-          display: flex;
-          align-items: center;
-      }
-      
-      
-      .navbar-contact-details-module {
-          display: flex;
-          align-items: center;
-      }
-      
-      .call-us-details {
-          width: 60%;
-      }
-      
-      .navbar-icon {
-          width: 40%;
-      }
-      
-      .logo-module {
-          width: 25%;
-      }
-      header {
-          background-color: #f5f5f5;
-          color: #60636d;
-          padding: 0px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-      }
-      .col-6-1{
-          padding-left: 185px;
-      }
-      
-      .search-container {
-          display: flex;
-          align-items: center;
-      }
-      
-      .search-input {
-          padding: 8px;
-          margin-right: 10px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-      }
-      
-      .search-button {
-          padding: 8px;
-          color: #fff;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-      }
-      
-      .icon-container {
-          display: flex;
-          margin-left: 10px;
-      }
-      
-      .icon {
-          width: 30px;
-          margin-right: 10px;
-      }
-      
-      /* Styling for navigation links and dropdowns */
-      .nav-list {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          display: inline-block;
-      }
-      
-      .nav-list li {
-          display: inline;
-          margin-right: 15px;
-      }
-      
-      .nav-list a {
-          text-decoration: none;
-          color: #fff; /* Change text color for better visibility */
-          padding: 10px;
-          display: inline-block;
-      }
-      
-      .dropdown {
-          position: relative;
-          display: inline-block;
-      }
-      
-      .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-          z-index: 1;
-          border-radius: 4px;
-          padding: 10px;
-      }
-      
-      .dropdown-content a {
-          color: #333;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-      }
-      
-      
-      .dropdown:hover .dropdown-content {
-          display: block;
-      }
-      .menu-bar {
-          background-color: #60636d;
-          width: 100%;
-      }
-      .menu-bar {
-          display: flex;
-          justify-content: center;
-      }
-      .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-        position: relative;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    
-    .col-md-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.33333%;
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
-    }
-    
-    .row-about {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-       
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-    .regular-about {
-        font-family: lato-regular;
-        text-align: center;
-    }
-    
-
-        .banner {
-            background: url(https://citybluetechnologies.com/wp-content/themes/understrap-master/image/ss.png);
-            /* Add your banner image URL */
-            background-size: cover;
-            height: 250px; /* Adjust the height of the banner */
-            text-align: left;
-            color: #fff;
-            padding-top: 50px; /* Adjust the padding to vertically center content */
-        }
-
-        .container {
-            width: 80%;
-            /* Set width of the container */
-            margin: 0 auto;
-            /* Center the container horizontally */
-            padding: 20px;
-            /* Add some padding inside the container */
-            margin-top: 20px;
-            /* Add space between banner and container */
-            text-align: center;
-        } 
-
-        .image-container,
-        .image-container2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 200px;
-            /* Adjust the gap between images */
-        }
-
-        .image-container img,
-        .image-container2 img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .container2,
-        .container3,
-        .container4
-        .container5 {
-            width: 80%;
-            /* Set width of the container */
-            margin: 0 auto;
-            /* Center the container horizontally */
-            padding: 10px;
-            /* Add some padding inside the container */
-            margin-top: 20px;
-            /* Add space between banner and container */
-            text-align: left;
-        }
-
-        .line {
-            border-bottom: 3px solid;
-            width: 40px;
-            margin: 0 auto;
-            color: #0f246f;
-        }
-
-        .row {
-            display: flex;
-            margin-right: -15px;
-            margin-left: -15px;
-            flex-wrap: wrap;
-        }
-
-        .col-md- {
-            width: 50%;
-            padding-right: 15px;
-            padding-left: 15px;
-        }
-
-        .img,
-        .bg-img {
-            max-width: 40%;
-            height: auto;
-        }
-
-        .container6 {
-        display: flexbox;
-        align-items: center;
-        justify-content: center;
-        background-color: #eeeff0;
-        flex-wrap: wrap; /* Allow items to wrap if needed */
-      }
-      .list {
-        flex: 1; /* Let the text take remaining space */
-        max-width: 400px; /* Adjust max-width as needed */
-        padding: 0 20px; /* Add padding to the text column */
-      }
-      .bg-img {
-        max-width: 40%; /* Make sure image doesn't exceed its container */
-        height: auto; /* Maintain aspect ratio */
-      }
-
-      .container7 {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-wrap: wrap;
-            }
-            .col-lg-4 {
-              flex: 1 1 33.33%;
-              max-width: 33.33%;
-              padding: 0 15px; /* Adjust padding as needed */
-            }
-            .seal-column,
-            { 
-                text-align: left
-            }
-            .text-center,
-            {}
-            .social-link {
-              text-align: right;
-            }
-            .img-seal {
-              max-width: 100%;
-              height: auto;
-            }
-            /* ** Footer CSS ** */
-
-footer {
-  display: block;
-}
-.line1 {
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-}
-
-.line2 {
-  background-color: #60636D;
-  width: 100%;
-  height: 1px;
-}
-
-.site-info {
-  background-color: #fff;
- 
-}
-
-.site-info .container {
-  padding-top: 40px;
-  padding-bottom: 15px;
-}
-
-.container {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-
-
-
-
-.col-md-6{
-
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  text-align: center;
-}
-
-footer#colophon p, footer#colophon a {
-  font-size: 14px;
-  text-align: center;
-}
-
-
-.bold {
-  font-family: "Lato", sans-serif;
-    font-weight: 600;
-    font-style: bold;
-}
-
-.footer-head {
-  color: #344284;
-}
-a {
-  text-decoration: none;
-  color: #344284;
-}
-
-img{
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  border-style: none;
-}
-
-.newsletter-p {
-  color: #454a4e;
-  margin-bottom: 20px;
-}
-
-.col-md-12{
-
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.text-center{
-  text-align: center;
-}
-
-.social-link {
-  text-align: center;
-}
-
-
-
-.terms-link {
-  background-color: #eeeff0;
- 
-}
-
-.terms-link .container {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.copyright {
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-}
-
-.footerleft {
-  margin-bottom: 0px;
-  color: #41494d;
-  font-size: 12px !important;
-}
-
-
-p {
-  margin-top: 0;
- 
-}
-
-.right-link a {
-  font-size: 12px !important;
-  color: #41494d;
-}
-
-.sitemap, .terms {
-  padding-right: 5px;
-  border-right: 1px solid;
-}
-
-.terms {
-  padding-right: 5px;
-  border-right: 1px solid;
-}
-
-a {
-
-  text-decoration: none;
-  background-color: transparent;
-}
-
-
-
-
-
-
-
-
-  @media (min-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .brands-row img {
-      padding: 20px;
-      padding: 20px;
-    width: 25%;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .col-md-6 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-  }
-  @media (min-width: 768px) {
-    .terms-link .right-link {
-      text-align: right;
-    }
-  }
-
-@media (min-width: 768px) {
-  .social-link {
-    margin: 10px;
-  }
-}
-
-
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 768px) {
-  .design {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 16.66667%;
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
-  }
-}
-
-    @media (max-width: 768px) {
-      .row {
-        margin-left: 0px;
-        margin-right: 0px;
-      }
-    }
-
-    
-    @media (min-width: 768px) {
-      .col-md-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
-      }
-    }
-
-    @media(max-width:991px){
-      .row {
-        
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-    }
-
-
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
-  }
-
-  @media (min-width: 992px) {
-    .col-lg-4 {
-      -webkit-box-flex: 0;
-    
-      flex: 0 0 33.33333%;
-      max-width: 33.33333%;
-    }
-  }
-
- 
-
-  @media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-  }
-
-    </style>
+    <title>Service & Support</title>
+    <link rel="stylesheet" href="CSS/demo.css">
 </head>
 
 <body>
-  <header>
-    <div class="container-navbar">
-        <div class="row">
-            <div class="col-6-1">
-                <div class="logo-module">
-                    <img src="images/CBT_logo.svg"
-                        class="w-100" alt="">
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="navbar-contact-details-module">
-                    <div class="call-us-details">
-                        <h3>CALL US (800) 747 6500 <a href="#"></a></h3>
-                    </div>
-                    <div class="search-container">
-                        <input type="text" placeholder="Search..." name="search" class="search-input">
-                        <button type="submit" class="search-button">
-                            <img src="images/download.png">
-                        </button>
-                    </div>
-                    <div class="navbar-icon">
-                        <a href="#">
-                            <img src="images/Cityblue-Website-icon-01.png"
-                                alt="">
-                        </a>
-                        <a href="mailto:info@citybluetech.com">
-                            <img src="images/Cityblue-Website-icon-02.png"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-     <div class="menu-bar">
+
+
+    <header>
         <div class="container-navbar">
+            <div class="row">
+                <div class="col-6">
+                    <div class="logo-module">
+                        <img src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg"
+                            class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="navbar-contact-details-module">
+                        <div class="call-us-details">
+                            <h2>Call us <a href="#">78456130</a></h2>
+                        </div>
+                        <div class="search-container">
+                            <input type="text" placeholder="Search..." name="search" class="search-input">
+                            <button type="submit" class="search-button">
+                                <img src="images\download.png">
+                            </button>
+                        </div>
+                        <div class="navbar-icon">
+                            <a href="#">
+                                <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-01.png"
+                                    alt="">
+                            </a>
+                            <a href="mailto:info@citybluetech.com">
+                                <img src="images\Cityblue-Website-icon-02.png"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <div class="menu-bar">
+            <div class="container-navbar1">
+                <ul class="nav-list">
+                    <li class="dropdown">
+                        <a href="#">COPIERS PLOTTERS & PRINTERS</a>
+                        <div class="dropdown-content">
+                            <a href="#">Small And Large Format Copiers</a>
+                            <a href="#">Small Format Printers</a>
+                            <a href="#">Large Format Printers</a>
+                            <a href="#">Large Format Scanners</a>
+                            <a href="#">Aperture Card Scanners</a>
+                            <a href="#">Large Format Cutters</a>
+                        </div> 
+                    </li>
+                </ul>
             <ul class="nav-list">
                 <li class="dropdown">
-                    <a href="#">COPIERS PLOTTERS & PRINTERS</a>
+                    <a href="#">SUPPLIES</a>
                     <div class="dropdown-content">
-                        <a href="#">Small And Large Format Copiers</a>
-                        <a href="#">Small Format Printers</a>
-                        <a href="#">Large Format Printers</a>
-                        <a href="#">Large Format Scanners</a>
-                        <a href="#">Aperture Card Scanners</a>
-                        <a href="#">Large Format Cutters</a>
+                        <a href="#">Printing Supplies</a>
+                        <a href="#">Océ</a>
+                        <a href="#"> Canon</a>
+                        <a href="#"> Epson</a>
                     </div> 
                 </li>
             </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="#">SUPPLIES</a>
-                <div class="dropdown-content">
-                    <a href="#">Printing Supplies</a>
-                    <a href="#">Océ</a>
-                    <a href="#"> Canon</a>
-                    <a href="#"> Epson</a>
-                </div> 
-            </li>
-        </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="service(palavi).html">SERVICE & SUPPORT</a>
-            </li>
-        </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="#">PRINTING SERVICES</a>
-                <div class="dropdown-content">
-                    <a href="COLOR_PRINTING(Abhay).html">Color Printing</a>
-                    <a href="large_form_printing(Abhay).html">Large Format Printing</a>
-                    <a href="large_form_copy(Abhay).html">Large Format Copying</a>
-                    <a href="scanning(Abhay).html">Scanning</a>
-                    <a href="finishinggggg(Abhay).html">Finishing Services</a>
-                </div> 
-            </li>
-        </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="#">DIGITAL SOLUTIONS</a>
-                <div class="dropdown-content">
-                    <a href="digitalservices(Akash).html"> Digital Services</a>
-                    <a href="CBPerfrom(Akash).html">CB Perform</a>
-                    <a href="online(Akash).html">Online Planrooms</a>
-                    <a href="send us(nikhilesh).html">Send Us Files</a>
-                    <a href="bid doc(Nikhilesh).html">Bid Document Management</a>
-                    <a href="digital archiving(Nikhilesh).html">Digital Archiving & Hosting</a>
-                </div> 
-            </li>
-        </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="drone-services(Harsh).html">DRONE SERVICES</a>
-            </li>
-        </ul>
-        <ul class="nav-list">
-            <li class="dropdown">
-                <a href="About(Harsh).html">ABOUT US</a>
-                <div class="dropdown-content">
-                    <a href="#"> Overview</a>
-                    <a href="#">Lifecycle Solutions</a>
-                    <a href="#">History</a>
-                    <a href="#">People</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Corporate Social Responsibility</a>
-                    <a href="#">What’s New</a>
-                    <a href="#">Blogs</a>
-                </div> 
-            </li>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="service.html">SERVICE & SUPPORT</a>
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="#">PRINTING SERVICES</a>
+                    <div class="dropdown-content">
+                        <a href="COLOR_PRINTING.html">Color Printing</a>
+                        <a href="large_format_print.html">Large Format Printing</a>
+                        <a href="LARGE_FORMAT_COPYING.html">Large Format Copying</a>
+                        <a href="scanning.html">Scanning</a>
+                        <a href="finishing.html">Finishing Services</a>
+                    </div> 
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="#">DIGITAL SOLUTIONS</a>
+                    <div class="dropdown-content">
+                        <a href="digitalservices.html"> Digital Services</a>
+                        <a href="CBPerfrom.html">CB Perform</a>
+                        <a href="online.html">Online Planrooms</a>
+                        <a href="new.html">Send Us Files</a>
+                        <a href="bid doc.html">Bid Document Management</a>
+                        <a href="digital archiving.html">Digital Archiving & Hosting</a>
+                    </div> 
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="drone-services.html">DRONE SERVICES</a>
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="About.html">ABOUT US</a>
+                    <div class="dropdown-content">
+                        <a href="#"> Overview</a>
+                        <a href="#">Lifecycle Solutions</a>
+                        <a href="#">History</a>
+                        <a href="#">People</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Corporate Social Responsibility</a>
+                        <a href="#">What’s New</a>
+                        <a href="#">Blogs</a>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </header>
+<!------
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg" alt="CBT Logo" class="logo">
+        </div>
+        </div>
+        <center><div class="navbar1">
+        <a href="#copiers">COPIERS PLOTTERS & PRINTERS  </a>
+        <a href="#supplies">SUPPLIES  </a>
+        <a href="#service">SERVICE & SUPPORT  </a>
+        <a href="#printing service">PRINTING SERVICE  </a>
+        <a href="#digital">DIGITAL SOLUTIONS  </a>
+        <a href="#drone">DRONE SERVICES  </a>
+        <a href="#about">ABOUT US  </a>
+    </div></center>
+    ---->
+    <div class="banner">
+        <p>Home / Service & Support</p>
+        <h1>Your premier choice for service and support</h1>
+    </div>
+   
+
+    <div class="container">
+        <h2 class="regular text-center text-deal">Large Format Service & Support</h2>
+        <div class="line"></div>
+        <p>CityBlue Technologies' never-ending commitment to provide our clients with the highest level of quality, support, and technical expertise makes us your premier choice for service and support for your large format devices. We offer all-encompassing support contracts, pre and post-installation services, preventative repair options, emergency service along with continued training and network support options.</p>
+        <p><b>We offer service on EPSON small format and on the following large format products:</b></p>
+    </div>
+
+    <div class="image-container">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/oce-logo.png" alt="Image 1">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/canon-logo.png" alt="Image 2">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/contex-logo.png" alt="Image 3">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div class="image-container2">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/hp.png" alt="Image 1">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/epson.png" alt="Image 2">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/tameran.png" alt="Image 3">
+        <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/graphtec.png" alt="Image 4">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div class="container2">
+        <center>
+            <p>Our highly skilled, factory authorized support professionals possess the skills, knowledge, experience, and resources to ensure the maximum amount of up-time for your large format equipment.</p>
+        </center>
+        <ul>
+            <li>Manufacturer Authorized and Trained Professionals on all Major Lines of Equipment (Oce/Canon/Contex/KIP)</li>
+            <li>24 Hour Response Times</li>
+            <li>Multiple Service Contract Options to best Fit your Needs and Budget</li>
+            <li>Time & Material service options are also available</li>
         </ul>
     </div>
-</div>
-</div>
-</header>
+
     <section class="about-tech" style="background-color: #eeeff0;min-height: 350px;">
         <div class="container" style="margin-bottom: 0px !important;">
             <center>
-                <h4>Large Format Remote Support</h4>
+                <h2>Large Format Remote Support</h2>
             </center>
             <div class="line"></div>
             <center>
@@ -679,178 +199,105 @@ a {
         </div>
     </section>
 
-    <section class="completecl">
-        <section class="client-speak">
-            <div class="container4">
-              <center>
-                <h4 class="regular text-center text-deal mtopccl">Complete Care Contract</h4>
-              </center>
-            </div>
-          </section>
-          <div class="line"></div>
-          <section class="container5">
-            <div class="row" style="margin-top: 50px;">
-              <div class="col-md-6">
-                <img class="img" src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Complete-Care-Contract.png" alt="image">
-              </div>
-              <div class="col-md-6 list">
-                <p class="regular testomonial-comment" style="margin-bottom: 0px; text-align: justify;padding: 0px 20px !important;">If you're looking for the most complete care available for your large format equipment then CityBlue's Complete Care Service Contract is your solution. CityBlue's complete care contract is available with or without standard supplies for Oce large format printers and Canon large format printers (standard bond only for Canon products).</p>
-                <p class="regular" style="margin-bottom: 5px;margin-top: 10px; text-align: justify;padding: 0px 20px;">Complete Care Service Contracts include:</p>
-                <ul style="margin-top: 0px;margin-bottom: 0rem;">
-                  <li>Two preventive maintenance visits per year</li>
-                  <li>All parts, travel and labor</li>
-                  <li>Network/phone support</li>
-                  <li>Additional user training</li>
-                </ul>
-                <p style="margin-bottom: 5px;margin-top: 10px;padding: 0px 20px;">Standard supplies include:</p>
-                <ul>
-                  <li>20# bond paper</li>
-                  <li>Toner</li>
-                  <li>Developer</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-    </div> 
-    <div>
-    <title>Preventive Maintenance Contract</title>
-    <style>
-    
-    </style>
-    <section class="client-speak">
-      <div class="container6">
-        <center><h4 class="regular text-center text-deal mtopccl">Preventive Maintenance Contract</h4></center>
+    <div class="container5">
+        <center><h2>Complete Care Contract</h2></center>
         <div class="line"></div>
-        <div class="row pbtmcl">
-          <div class="col-md-6 list">
-            <p class="regular" style="text-align: justify;">CityBlue Technologies offers a cost-effective service contract option for large format equipment owners and operators - Preventive Maintenance Contracts.</p>
-            <p class="regular" style="text-align: justify;">Contracts include two preventive maintenance service calls per year, as well as discounted rates on travel and parts.</p>
-            <p class="regular" style="margin-bottom: 5px;margin-top: 10px;text-align: justify;">Preventive maintenance calls include:</p>
-            <ul>
-              <li style="margin-left: 18px;">Complete cleaning, inspection and quality check</li>
-              <li style="margin-left: 18px;">Replacement of corona wires as needed</li>
-              <li style="margin-left: 18px;">Adjustment of all settings to factory specifications</li>
-              <li style="margin-left: 18px;">Additional user training</li>
-              <li style="margin-left: 18px;">Complete service report on condition of your machine</li>
-              <li style="margin-left: 18px;">Systems diagnostics and back-up of systems settings when applicable</li>
-              <li style="margin-left: 18px;">Free phone & remote support</li>
+        <div class="columns">
+          <div class="column">
+            <img class="bg-img" src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Complete-Care-Contract.png">
+          </div>
+          <div class="column">
+            <p class="regular testomonial-comment" style="margin-bottom: 0px; text-align: justify;padding: 0px 20px !important;">If you're looking for the most complete care available for your large format equipment then CityBlue's Complete Care Service Contract is your solution. CityBlue's complete care contract is available with or without standard supplies for Oce large format printers and Canon large format printers (standard bond only for Canon products).</p>
+            <p class="regular" style="margin-bottom: 5px;margin-top: 10px; text-align: justify;padding: 0px 20px;">Complete Care Service Contracts include:</p>
+            <ul style="margin-top: 0px;margin-bottom: 0rem;">
+                <li>Two preventive maintenance visits per year</li>
+                <li>All parts, travel and labor</li>
+                <li>Network/phone support</li>
+                <li>Additional user training</li>
             </ul>
-          </div>
-          <div class="col-md-6">
-            <img class="bg-img" src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Preventive-Maintenance-Contract.png">
-          </div>
+            <p style="margin-bottom: 5px;margin-top: 10px;padding: 0px 20px;">Standard supplies include:</p>
+            <ul>
+                <li>20# bond paper</li>
+                <li>Toner</li>
+                <li>Developer</li>
+            </ul>
+        
+        </div>
         </div>
       </div>
-    </section>
-    
-    <footer id="colophon" class="site-footer">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line1"></div>
-
-  
-
-      <div class="site-info">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-4 col-md-6 seal-column">
-                      <p class="bold footer-head">100% Secure and Trusted Payment</p>
-  
-                      <!-- PayPal logo and link  -->
-  
-                      <a href="https://www.paypal.com/us/verified/pal=orders%40citybluetech%2ecom" title="Official PayPal Seal" target="_blank"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-paypal.png" border="0" alt="Official PayPal Seal" title="Official PayPal Seal" width="70"></a>
-  
-  
-  
-                      <!-- CompliAssure Secure Logo and Link  -->
-  
-  
-                      <script type="text/javascript" src="https://www.rapidscansecure.com/siteseal/siteseal.js?code=81,CF6D725FF3030159EDBA6398CCEB394983524356" alt="CompliAssure Secured Trust Seal" title="CompliAssure Secured Trust Seal"></script>
-  
-                      <a href="#" style="text-decoration:none;" onclick="javascript:window.open('https://www.rapidscansecure.com/siteseal/Verify.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356', 'Verification',  'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526'); return false;">
-                      </a>
-  
-                      <!-- (c) 2005, 2019. Authorize.Net is a registered trademark of CyberSource Corporation -->
-  
-                      <script type="text/javascript" language="javascript">var ANS_customer_id="46d2a66e-f2a8-43bf-be9d-8d43a30f905d";</script>
-  
-                      <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" alt="Authorize.Net Trust Seal" title="Authorize.Net Trust Seal"></script>
-  
-                      <style type="text/css">
-                          div.AuthorizeNetSeal{text-align:center;margin:0;padding:0;width:90px;font:normal 9px arial,helvetica,san-serif;line-height:10px;}
-                          div.AuthorizeNetSeal a{text-decoration:none;color:black;}
-                          div.AuthorizeNetSeal a:visited{color:black;}
-                          div.AuthorizeNetSeal a:active{color:black;}
-                          div.AuthorizeNetSeal a:hover{text-decoration:underline;color:black;}
-                          div.AuthorizeNetSeal a img{border:0px;margin:0px;text-decoration:none;}
-                      </style>
-  
-                      <!-- Authorize.net logo and link -->
-  
-                      <a href="https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com" onmouseover="window.status='http://www.authorize.net/'; return true;" onmouseout="window.status=''; return true;" onclick="window.open('https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" rel="noopener noreferrer" target="_blank">
-                   
-                      </a>
-  
-                  </div>
-                  <div class="col-lg-4  col-md-6 text-center">
-                      <p class="body footer-head bold " style="text-align: center;">Stay Informed</p>
-                      <a class="regular newsletter-p" href="https://citybluetechnologies.com/about-us/#whatsnew">Subscribe to our Newsletter</a>
-                      <!-- change link: whats-new/ -->
-                  </div>
-                  
-  
-                  <div class="col-lg-4  col-md-12">
-  
-                      <div class="social-link">
-  
-  
-                          <p class="body footer-head bold" style="margin-bottom: 10px; text-align: center;">Follow Us</p>
-  
-  
-                          <a target="_blank" href="http://www.facebook.com/pages/CityBlue/60518724578"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-facebook.png" alt="CityBlue Technologies Facebook icon" title="CityBlue Technologies Facebook link" style="background: white;"></a>
-  
-  
-                          <a target="_blank" href="https://twitter.com/citybluetech"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-twitter.png" alt="CityBlue Technologies Twitter icon" title="CityBlue Technologies Twitter link"></a>
-  
-  
-                          <a target="_blank" href="https://www.linkedin.com/company/cityblue-technologies"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-linkedIn.png" alt="CityBlue Technologies Linkedin icon" title="CityBlue Technologies Linkedin link"></a>
-  
-  
-                          <a target="_blank" href="https://www.youtube.com/user/citybluetechnologies"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-youtube.png" alt="CityBlue Technologies Youtube icon" title="CityBlue Technologies Youtube link"></a>
-  
-  
-                          <a target="_blank" href="http://www.yelp.com/biz/cityblue-technologies-peoria"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-yelp.png" alt="CityBlue Technologies Yelp icon" title="CityBlue Technologies Yelp link"></a>
-  
-                          
-                          <a target="_blank" href="www.instagram.com/cityblue_6"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-instagram.png" alt="CityBlue Technologies Instagram icon" title="CityBlue Technologies Instagram link"></a>
-                          
-                      
-                      </div>
-                  </div>
-              </div>
-             
-
-
-          </div>
-      </div>
       
-      <div class="terms-link">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line1"></div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-6 copyright">
-                      <p class="regular footerleft">Copyright © 2021 CityBlue Technologies All Rights Reserved</p>
-                  </div>
-                  <div class="col-md-6 right-link">
-                      <a href="https://citybluetechnologies.com/sitemap/" class="regular footerright sitemap" title="Site Map Page">Site Map</a>
-                      <a href="https://citybluetechnologies.com/terms-of-use/" class="regular footerright terms" title="Terms &amp; Conditions Page">Terms &amp; Conditions</a>
-                      <a href="https://citybluetechnologies.com/privacy-policy/" class="regular footerright privecy" title="Privacy Policy Page">Privacy Policy</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
+    <div>
+      
+      <div class="container6">
+       <center><h2 class="title">Preventive Maintenance Contract</h2></center>
+       <div class="line"></div>
+        <div class="columns">
+            <div class="column">
+                <p class="regular" style="text-align: justify;">CityBlue Technologies offers a cost-effective service contract option for large format
+                    equipment owners and operators - Preventive Maintenance Contracts.</p>
+                    <p class="regular" style=" text-align: justify;">Contracts include two preventive maintenance service calls per year, as well as
+                        discounted rates on travel and parts.</p>
+                    <p class="regular" style="margin-bottom: 5px;margin-top: 10px;text-align: justify;">Preventive maintenance calls include:</p>
+                    <ul>
+                        <li style="margin-left: 18px;">Complete cleaning, inspection and quality check</li>
+                        <li style="margin-left: 18px;">Replacement of corona wires as needed</li>
+                        <li style="margin-left: 18px;">Adjustment of all settings to factory specifications</li>
+                        <li style="margin-left: 18px;">Additional user training</li>
+                        <li style="margin-left: 18px;">Complete service report on condition of your machine</li>
+                        <li style="margin-left: 18px;">Systems diagnostics and back-up of systems settings when applicable</li>
+                        <li style="margin-left: 18px;">Free phone &amp; remote support</li>
+                    </ul>
+            </div>
+            <div class="column">
+                <img class="bg-img" src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Preventive-Maintenance-Contract.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer style="display:block;box-sizing:border-box;">
+    <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+        <div style="background-color:rgb(96, 99, 109);width: 100%;height:1px;box-sizing:border-box;"></div>
+        <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+            <div style="background-color:rgb(255, 255, 255);box-sizing:border-box;">
+                <div style="max-width:1140px;padding-left:0px;padding-right:0px;padding-top:40px;padding-bottom:15px;width: 100%;margin-right: auto;margin-left: auto;box-sizing:border-box;">
+                    <div style="display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;box-sizing:border-box;">
+                        <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                            <p style="font-size:14px;color:rgb(52, 66, 132);margin-top:0px;margin-bottom:16px;box-sizing:border-box;font-family:lato-bold;">100% Secure and Trusted Payment</p> <a href="https://www.paypal.com/us/verified/pal=orders%40citybluetech%2ecom" title="Official PayPal Seal" target="_blank" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-paypal.png" border="0" alt="Official PayPal Seal" title="Official PayPal Seal" width="70" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a href="#" style="text-decoration:none;font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;" onclick="javascript:window.open('https://www.rapidscansecure.com/siteseal/Verify.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356', 'Verification',  'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526'); return false;"><img alt="CompliAssure SiteSeal" src="https://www.rapidscansecure.com/siteseal/Seal.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356" border="0" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <!-- (c) 2005, 2019. Authorize.Net is a registered trademark of CyberSource Corporation --> <a href="https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com" onmouseover="window.status='http://www.authorize.net/'; return true;" onmouseout="window.status=''; return true;" onclick="window.open('https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" rel="noopener noreferrer" target="_blank" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;">
+                                <img src="https://verify.authorize.net/anetseal/images/secure90x72.gif" width="90" height="72" border="0" alt="Authorize.Net Merchant - Click to Verify" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /> </a>
+                            <!----<img src="" alt="Official Authorize.Net Seal" title="Official Authorize.Net Seal" /> -->
+                        </div>
+                        <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;text-align:center;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                            <p style="font-size:14px;color:rgb(52, 66, 132);margin-top:0px;margin-bottom:16px;box-sizing:border-box;font-family:lato-bold;">Stay Informed</p> <a href="https://citybluetechnologies.com/about-us/#whatsnew" style="text-decoration:none solid rgb(69, 74, 78);color:rgb(69, 74, 78);margin-bottom:20px;font-size:14px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Subscribe to our Newsletter</a> <!-- change link: whats-new/ -->
+                        </div>
+                        <div style="-webkit-box-flex:0;flex:0 0 33.3333%;max-width:33.3333%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                            <div style="margin:10px;text-align:center;box-sizing:border-box;">
+        
+        
+                                <p style="margin-bottom: 10px;font-size:14px;color:rgb(52, 66, 132);margin-top:0px;box-sizing:border-box;font-family:lato-bold;">Follow Us</p> <a target="_blank" href="http://www.facebook.com/pages/CityBlue/60518724578" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-facebook.png" alt="CityBlue Technologies Facebook icon" title="CityBlue Technologies Facebook link" style="background: white;max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://twitter.com/citybluetech" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-twitter.png" alt="CityBlue Technologies Twitter icon" title="CityBlue Technologies Twitter link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://www.linkedin.com/company/cityblue-technologies" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-linkedIn.png" alt="CityBlue Technologies Linkedin icon" title="CityBlue Technologies Linkedin link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="https://www.youtube.com/user/citybluetechnologies" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-youtube.png" alt="CityBlue Technologies Youtube icon" title="CityBlue Technologies Youtube link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="http://www.yelp.com/biz/cityblue-technologies-peoria" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-yelp.png" alt="CityBlue Technologies Yelp icon" title="CityBlue Technologies Yelp link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a> <a target="_blank" href="www.instagram.com/cityblue_6" style="text-decoration:none solid rgb(52, 66, 132);font-size:14px;color:rgb(52, 66, 132);background-color:rgba(0, 0, 0, 0);box-sizing:border-box;"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-instagram.png" alt="CityBlue Technologies Instagram icon" title="CityBlue Technologies Instagram link" style="max-width:100%;height: auto;vertical-align:middle;border-style:none;box-sizing:border-box;" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color:rgb(238, 239, 240);box-sizing:border-box;">
+                <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+                <div style="background-color:rgb(96, 99, 109);width: 100%;height:1px;box-sizing:border-box;"></div>
+                <div style="width: 100%;height:1px;background-color:rgb(255, 255, 255);box-sizing:border-box;"></div>
+                <div style="max-width:1140px;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;width: 100%;margin-right: auto;margin-left: auto;box-sizing:border-box;">
+                    <div style="display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;box-sizing:border-box;">
+                        <div style="-webkit-box-flex:0;flex:0 0 50%;max-width:50%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                            <p style="margin-bottom:0px;color:rgb(65, 73, 77);font-size:12px;margin-top:0px;box-sizing:border-box;font-family:lato-regular;">Copyright © 2021 CityBlue Technologies All Rights Reserved</p>
+                        </div>
+                        <div style="text-align:right;-webkit-box-flex:0;flex:0 0 50%;max-width:50%;position:relative;width: 100%;padding-right:15px;padding-left:15px;box-sizing:border-box;">
+                            <a href="https://citybluetechnologies.com/sitemap/" title="Site Map Page" style="text-decoration:none solid rgb(65, 73, 77);padding-right:5px;border-right:0.8px solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Site Map</a> <a href="https://citybluetechnologies.com/terms-of-use/" title="Terms &amp; Conditions Page" style="text-decoration:none solid rgb(65, 73, 77);padding-right:5px;border-right:0.8px solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Terms &amp; Conditions</a> <a href="https://citybluetechnologies.com/privacy-policy/" title="Privacy Policy Page" style="text-decoration:none solid rgb(65, 73, 77);color:rgb(65, 73, 77);font-size:12px;background-color:rgba(0, 0, 0, 0);box-sizing:border-box;font-family:lato-regular;">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
     </html>
