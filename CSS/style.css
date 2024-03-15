@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    line-height: 1.5;
    
 }
 .AuthorizedSection{
@@ -146,6 +146,9 @@ h4.regular.text-center.text-deal {
 
 .slick-dots .slick-active button:before {
   background: #2e1ede;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 57px;
 }
 
 .slick-dots li button:before {
@@ -761,4 +764,17 @@ h4 .sub-section-div{
   color: #344284;
   margin-bottom: 20px;
   margin-right: 776px;
+}
+.button {
+  background-color: #DC6523;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-family: luto,sans-serif;
+  font-size: 15.5px;
 }
