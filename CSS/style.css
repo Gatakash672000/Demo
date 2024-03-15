@@ -391,9 +391,9 @@ header {
 }
 h4.client-module{
   text-align: center;
-  margin-bottom: 36px;
-  margin-top: -190px;
-  margin-right: 273px;
+    margin-bottom: 8px;
+    margin-top: -192px;
+    margin-right: 322px;
 }
 
 .testimonial {
@@ -753,4 +753,12 @@ h4 .sub-section-div{
 .tech-icons-1{
   margin-left: 20px;
   margin-top: 55px;
+}
+.line-module {
+  border-bottom: 3px solid;
+  width: 40px;
+  margin: 0 auto;
+  color: #344284;
+  margin-bottom: 20px;
+  margin-right: 759px;
 }
