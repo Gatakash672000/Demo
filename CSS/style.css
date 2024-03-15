@@ -571,7 +571,7 @@ figure.snip1157 .author h5 span {
 #secondary img, article img, figure, img, img.wp-post-image {
     max-width: 100%;
     height: auto;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .brands-row {
     margin-top: 40px;
