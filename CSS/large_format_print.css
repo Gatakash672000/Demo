@@ -8,7 +8,7 @@ section {
 }
 
 .banner-section {
-	background: url(https://citybluetechnologies.com/wp-content/themes/understrap-master/image/print-banner.jpg);
+	background: url(https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Printing-Services_Large-Format-Printing_Banner.png);
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -261,8 +261,3 @@ input[name='slide_switch'] {
 		opacity: 1
 	}
 }
-@media only screen and (max-width: 600px) {
-	.container {
-	  padding: 10px;
-	}
-  }

@@ -1,0 +1,113 @@
+.slider {
+	width: 640px;
+	position: relative;
+	padding-top: 320px;
+	margin: 60px auto;
+	box-shadow: 0 10px 20px-5px rgba(0, 0, 0, 0.75);
+}
+
+.slider>img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s;
+	width: 100%;
+}
+
+.slider>span {
+	position: absolute;
+	left: 0;
+	color: #fff;
+	z-index: 1;
+	padding: 15px;
+	background: #00000073;
+	bottom: 11px;
+	transition: all 0.5s;
+	width: 100%;
+}
+
+input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	margin: 0px 0px 0 26px;
+	border: 3px solid #999;
+	float: left;
+	cursor: pointer;
+	width: 12%;
+	opacity: 0.6;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+
+.slider label img {
+	display: block;
+}
+
+.slider label span {
+	display: block;
+}
+
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+
+
+.slider input[name='slide_switch']~span {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.slider input[name='slide_switch']~img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.slider input[name='slide_switch']:checked+label+span+img {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.slider input[name='slide_switch']:checked+label+span {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.slider-arrow {
+	color: #666;
+	position: absolute;
+	/*top: 490px*/
+	bottom: -47px;
+}
+
+.sliderleft {
+	left: 5px;
+}
+
+.sliderright {
+	right: 5px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.slider {
+		width: 100%;
+	}
+}
+
+* {
+	box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}

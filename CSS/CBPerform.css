@@ -215,6 +215,7 @@ header {
 
 .style-178 {
   width: 1519px; left: -10px; left:-10.0px; transition:background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s; margin-top:0px; margin-bottom:0px; padding:0px 0px 0px 0px; background-image:url('https://www.citybluetechnologies.com/wp-content/uploads/2020/06/Bitmap.png'); background-size:cover; --swiper-theme-color: #000; --swiper-navigation-size: 44px; --swiper-pagination-bullet-size: 6px; --swiper-pagination-bullet-horizontal-gap: 6px; position:relative; --flex-direction: initial; --flex-wrap: initial; --justify-content: initial; --align-items: initial; --align-content: initial; --gap: initial; --flex-basis: initial; --flex-grow: initial; --flex-shrink: initial; --order: initial; --align-self: initial; flex-basis:auto; flex-grow:0; flex-shrink:1; order:0; align-self:auto; box-sizing:border-box; display:block;
+
 }
 
 .style-179 {
@@ -228,10 +229,59 @@ header {
 .style-181 {
   padding:10px; display:flex; position:relative; width: 100%; flex-wrap:wrap; align-content:flex-start; box-sizing:border-box;
 }
-
-@media only screen and (max-width: 600px) {
-  .container {
-    padding: 10px;
+/* Custom responsive CSS */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  body {
+      font-size: 14px; /* Adjust font size for better readability */
+  }
+  .container-navbar {
+      padding: 10px; /* Add padding for better spacing */
+  }
+  .col-6-1,
+  .col-6 {
+      flex: 100%; /* Make columns full width on smaller screens */
+      margin-bottom: 10px; /* Add margin between columns */
+  }
+  .search-container {
+      margin-bottom: 10px; /* Add margin to search container */
+  }
+  .nav-list {
+      width: 100%; /* Make navigation items full width */
+      text-align: center; /* Center align navigation items */
+  }
+  .dropdown {
+      position: static; /* Remove dropdown positioning */
+  }
+  .dropdown-content {
+      display: none; /* Hide dropdown content by default */
+  }
+  .footer-section {
+      padding: 20px; /* Add padding to footer */
+      text-align: center; /* Center align footer content */
+  }
+  /* Adjust styles for specific elements if needed */
+}
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .banner-img {
+      max-width: 100%; /* Ensure the banner image doesn't exceed the screen width */
+      height: auto; /* Maintain aspect ratio */
   }
 }
-
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .style-179,
+  .style-178 {
+      width: 100%; /* Make the elements full width on smaller screens */
+      left: 0; /* Reset left positioning */
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .style-179 img {
+      width: 100%; /* Make the image full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+    
+  }
+}

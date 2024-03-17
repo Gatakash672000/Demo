@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
-   
+   font-family: luto,sans-serif;
 }
 .AuthorizedSection{
     margin-left: 170px;
@@ -55,13 +55,12 @@ body {
 }
 .row .nav-right-mail {
   display: flex;
-  justify-content: space-between;
+ 
   align-items: center;
 }
 
 .call-us-details {
- 
-  margin-right: auto; /* Pushes the search-container and navbar-icon to the right */
+  margin-right: 20px; /* Pushes the search-container and navbar-icon to the right */
 }
 h4.regular.text-center.text-deal {
   padding-top: 40px;
@@ -80,6 +79,7 @@ h4.regular.text-center.text-deal {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
+  border-style: solid;
 }
 
 .search-input {
@@ -176,7 +176,7 @@ h4.regular.text-center.text-deal {
     margin: 30px;
   }
   .container-navbar {
-    max-width: 12000px;
+    max-width: 100%;
     margin: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -223,20 +223,11 @@ h4{
     display: flex;
     align-items: center;
 }
-
-/* .call-us-details {
-    width: 60%;
-} */
-
-/* .navbar-icon {
-    width: 40%;
-} */
-
 .logo-module {
   width: 45%;
 }
 header {
-    background-color: #f5f5f5;
+    background-color:white;
     color: #60636d;
     padding: 0px;
     display: flex;
@@ -246,27 +237,6 @@ header {
 .col-6-1{
     padding-left: 185px;
 }
-
-/* .search-container {
-    display: flex;
-    align-items: center;
-} */
-
-/* .search-input {
-    padding: 8px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-} */
-
-/* .search-button {
-    padding: 8px;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-} */
-
 .icon-container {
     display: flex;
     margin-left: 10px;
@@ -442,8 +412,6 @@ h4.client-module{
     margin-left: 250px;
     margin-top: 80px;
 }
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 figure.snip1157 {
   font-family: 'Lato', sans-serif;
   position: relative;
@@ -668,8 +636,6 @@ figure.snip1157 .author h5 span {
 
 @media (min-width: 992px) {
   .col-lg-4 {
-    -webkit-box-flex: 0;
-  
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
   }
@@ -695,10 +661,10 @@ figure.snip1157 .author h5 span {
     margin-top: -75px;
 }
 .video-first {
-  padding-left: 36px;
-  align-content: center;
-  align-items: center;
-  margin-right: -16px;
+  padding-left: 47px;
+    align-content: center;
+    align-items: center;
+    margin-right: 11px;
 }
 .video {
     flex: 1; /* Distribute available space equally */
@@ -707,12 +673,32 @@ figure.snip1157 .author h5 span {
     margin-top: 115px;
        
 }
+.video-1{
+  height: 550px;
+  width: 100%;
+}
+.video-2{
+  height: 500px;
+  width: 90%;
+}
+.video-3{
+  height: 500px;
+  width: 90%;
+}
 .video-section{
   margin-bottom: -230px;
     justify-content: center;
     padding:140px;
     margin-top: -125px;
     /* background-color: #EEEFF0; */
+}
+.span-video-2{
+  margin:0px ;
+  padding: 0px;
+}
+.span-video-3{
+  margin: 0px;
+  padding: 0%;
 }
 /* About section */
 .about-tech{
@@ -777,4 +763,58 @@ h4 .sub-section-div{
   margin-left: 0px;
   font-family: luto,sans-serif;
   font-size: 15.5px;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+@media (max-width: 767px){
+.banner-carousel, .banner-item, .banner-inner {
+    width: 100%;
+    height: 200px;
+    /* margin: 0 auto; */
+}
+}
+@media (max-width: 767px){
+.main-nav {
+    background-color: gray;
+}
+}
+@supports ((position:-webkit-sticky) or (position:sticky)){
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
 }
