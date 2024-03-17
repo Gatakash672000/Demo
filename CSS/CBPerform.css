@@ -285,3 +285,11 @@ header {
     
   }
 }
+@media screen and (min-width: 768px) {
+  /* Adjustments for smaller screens */
+  .style-179,
+  .style-178 {
+      width: 100%; /* Make the elements full width on smaller screens */
+      left: 0; /* Reset left positioning */
+  }
+}
