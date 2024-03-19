@@ -473,7 +473,7 @@ header {
     font-size: 15px;
     
     font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   b, strong {
@@ -546,7 +546,7 @@ header {
     margin-left: 40px;
     font-family: "Lato", sans-serif;
     list-style: circle;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .about-tech-text {
