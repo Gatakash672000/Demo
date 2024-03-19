@@ -85,10 +85,10 @@
               max-width: 100%;
               height: auto;
               position: absolute;
-              left: 0;
+              left: -63px;
               top: 0;
-              margin-right: 2px; /* Add a 2px gap to the right of the image */
-            }
+              margin-right: 2px;
+          }
             
             /* Styles for all p elements inside the online-planrooms-hero section */
             .online-planrooms-hero p {
