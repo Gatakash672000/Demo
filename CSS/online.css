@@ -1,6 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@media only screen and (max-width: 600px) {
-    .container {
-      padding: 10px;
-    }
-  }
+        body {
+            font-family: lato-regular;
+            font-size: 100%;
+            color: #454a4e;
+        }
+            .planroom-section-links {
+                /* Add any styles for the section here */
+                background-color: white;
+                padding: 60px; /* Add padding to create space between the images and the container edges */
+            }
+    
+            .row.gaps {
+                display: flex;
+                flex-wrap: wrap;
+                margin: -10px; /* Negative margin to counteract padding on child elements */
+            }
+    
+            .first-planroom {
+                text-align: center;
+                margin-bottom: 20px;
+                width: calc(33.333%  90px); /* Adjust width as needed and consider margins */
+                margin: 20px; /* Add margin between images */
+                background-color: white; /* Set background color for individual image containers */
+                padding: 60px; /* Add padding to create space between the image and its container edges */
+                border: 2px solid #eeeff0;
+}
+    
+            .planroom-section-links img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                max-height: 200px; /* Set medium size as per your requirement */
+                size:100px
+            }
+    
+            .planroom-section-links p {
+                background-color: #cd5f22;
+                color: white;
+                padding: 20px;
+            }
+    
+            .col-md-4 {
+                flex: 0 0 calc(33.333% - 20px); /* Adjust width as needed and consider margins */
+                max-width: calc(33.333% - 20px);
+                margin-bottom: 20px; /* Add margin between columns */
+                margin: 10px; /* Add margin between images */
+            }
+    
+            .iowa-link a {
+                /* Add any styles for the Iowa link here */
+            }
+
+            /*2 section*/
+            /* Styles for the online-planrooms-hero section */
+            .online-planrooms-hero {
+              background-color: #f0f0f0;
+              padding: 20px;
+              text-align: center; /* Center-align the content within the section */
+            }
+            
+            /* Styles for the container within the online-planrooms-hero section */
+            .online-planrooms-hero .container {
+              max-width: 1200px; /* Adjust the maximum width as needed */
+              margin: 0 auto; /* Center the container horizontally */
+            }
+            
+            /* Styles for the row elements inside the online-planrooms-hero section */
+            .online-planrooms-hero .row {
+              display: flex;
+              flex-wrap: nowrap;
+              justify-content: unset;
+              gap: 19px;
+          }
+            
+            /* Styles for each col-sm element inside the online-planrooms-hero section */
+            .online-planrooms-hero .col-sm {
+              position: relative;
+              width: calc(50% - 10px); /* Adjusted width to account for the 2px gap on both sides */
+              margin-bottom: 20px;
+            }
+            
+            /* Styles for all img elements inside the online-planrooms-hero section */
+            .online-planrooms-hero img {
+              max-width: 100%;
+              height: auto;
+              position: absolute;
+              left: 0;
+              top: 0;
+              margin-right: 2px; /* Add a 2px gap to the right of the image */
+            }
+            
+            /* Styles for all p elements inside the online-planrooms-hero section */
+            .online-planrooms-hero p {
+              margin: 10px 0;
+              font-size: 16px;
+              color: #333;
+              z-index: 1;
+              margin-left: 2px; /* Add a 2px gap to the left of the paragraph */
+            }
+            @media only screen and (max-width: 767px) {
+    
+                .planroom-section-links {
+                  background-color: white;
+                  padding: 58px;
+              }
+              .row.gaps {
+                display: unset;
+                flex-wrap: wrap;
+                margin: -10px;
+              }
+              .col-md-4 {
+              flex: 0 0 calc(33.333% - 20px);
+              max-width: calc(59.333% - -80px); 
+              margin-bottom: 20px;
+              /* margin: 10px; */
+              }
+              .online-planrooms-hero img {
+                max-width: 100%;
+                height: auto;
+                position: absolute;
+                left: -62px;
+                top: 0;
+                margin-right: 2px;
+            }
+              .first-planroom {
+              text-align: center;
+              margin-bottom: 20px;
+              width: calc(33.333% 90px);
+              margin: 20px;
+              background-color: white;
+              padding: 0px;
+              border: 2px solid #eeeff0;
+              }
+              }
+            

@@ -1,192 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body {
-  font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-.section-2{
-  padding: 0%;
-  margin: 30px;
-}
-.container-navbar {
-  max-width: 12000px;
-  margin: 70px;
-  display: flex;
-  flex-wrap: wrap;
-}
-h4{
-  margin: 40px;
-  text-align: center;
-  font-size: 22px;
-}
-/*/navbar/*/
-.w-100 {
-  width: 90%;
-}
-
-.container-navbar {
-  width: 100%;
-  margin: auto;
-}
-
-.row {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.col-6 {
-  width: 150%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-3 {
-  width: 25%;
-}
-
-.navbar-contact-details-module {
-  display: flex;
-  align-items: center;
-}
-
-.call-us-details {
-  width: 60%;
-}
-
-.navbar-icon {
-  width: 40%;
-}
-
-.logo-module {
-  width: 70%;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
-
-header {
-  background-color: #f5f5f5;
-  color: #60636d;
-  padding: 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.col-6-1{
-  padding-left: 240px;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-}
-
-.search-input {
-  padding: 8px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.search-button {
-  padding: 8px;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.icon-container {
-  display: flex;
-  margin-left: 10px;
-}
-
-.icon {
-  width: 30px;
-  margin-right: 10px;
-}
-
-/* Styling for navigation links and dropdowns */
-.nav-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.nav-list li {
-  display: inline;
-  margin-right: 15px;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #fff; /* Change text color for better visibility */
-  padding: 10px;
-  display: inline-block;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-.dropdown-content a {
-  color: #333;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.nav-list:hover li {
-  background-color: #888; /* Change background color on hover */
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.menu-bar {
-  background-color: #60636d;
-  width: 100%;
-}
-.menu-bar {
-  display: flex;
-  justify-content: center;
-}
-
-.container-navbar {
-  display: flex;
-  justify-content: center;
-}
-
 
 .style-171 {
-  flex-basis:0px; -webkit-box-flex:1; flex-grow:1; max-width:100%; position:relative; width: 100%; padding-right:15px; padding-left:15px; box-sizing:border-box;
+  flex-basis: 0px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
 }
 
 .style-172 {
@@ -202,7 +26,15 @@ header {
 }
 
 .style-175 {
-  font-family:lato-bold; font-size:30px; margin-bottom:25px; margin-top:0px; display:block; font-weight:500; line-height:36px; color:rgb(69, 74, 78); box-sizing:border-box;
+  font-family: lato-bold;
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-top: -25px;
+  display: block;
+  font-weight: 500;
+  line-height: 36px;
+  color: rgb(69, 74, 78);
+  box-sizing: border-box;
 }
 
 .style-176 {
@@ -229,41 +61,41 @@ header {
 .style-181 {
   padding:10px; display:flex; position:relative; width: 100%; flex-wrap:wrap; align-content:flex-start; box-sizing:border-box;
 }
+.line{
+  margin:0px 550px;
+  padding:0px;
+  border-bottom:2.4px solid rgb(52, 66, 132);
+  width: 40px;
+  color:rgb(52, 66, 132);
+  box-sizing:border-box;
+}
 /* Custom responsive CSS */
-@media screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-  body {
-      font-size: 14px; /* Adjust font size for better readability */
-  }
-  .container-navbar {
-      padding: 10px; /* Add padding for better spacing */
-  }
-  .col-6-1,
-  .col-6 {
-      flex: 100%; /* Make columns full width on smaller screens */
-      margin-bottom: 10px; /* Add margin between columns */
-  }
-  .search-container {
-      margin-bottom: 10px; /* Add margin to search container */
-  }
-  .nav-list {
-      width: 100%; /* Make navigation items full width */
-      text-align: center; /* Center align navigation items */
-  }
-  .dropdown {
-      position: static; /* Remove dropdown positioning */
-  }
-  .dropdown-content {
-      display: none; /* Hide dropdown content by default */
-  }
-  .footer-section {
-      padding: 20px; /* Add padding to footer */
-      text-align: center; /* Center align footer content */
-  }
-  /* Adjust styles for specific elements if needed */
+
+@media screen and (max-width: 320px) {
+  .line {
+    max-width: 520px;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 2.4px solid rgb(52, 66, 132);
+    width: 40px;
+    color: rgb(52, 66, 132);
+    box-sizing: border-box;
+}
 }
 
-
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  
+  .line {
+    max-width: 520px;
+    margin: 0px auto;
+    padding: 0px;
+    border-bottom: 2.4px solid rgb(52, 66, 132);
+    width: 40px;
+    color: rgb(52, 66, 132);
+    box-sizing: border-box;
+}
+}
 @media screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
   .banner-img {
@@ -295,3 +127,5 @@ header {
       left: 0; /* Reset left positioning */
   }
 }
+
+
