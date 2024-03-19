@@ -701,6 +701,11 @@ h4.regular.text-center.text-deal {
     margin-top: -125px;
     /* background-color: #EEEFF0; */
 }
+.video-1 {
+  height: 197px;
+  width: 250%;
+  margin-left: -63%;
+}
 .video-2 {
   height: 500px;
   width: 90%;
@@ -720,6 +725,11 @@ h4.regular.text-center.text-deal {
   .container {
     max-width: 540px;
   }
+  .video-1 {
+    height: 197px;
+    width: 250%;
+    margin-left: -63%;
+}
   
   /* new CSS */
   
@@ -731,6 +741,11 @@ h4.regular.text-center.text-deal {
     position: relative;
     margin-left: -50px;
     margin-top: 54px;
+}
+.video-1 {
+  height: 197px;
+  width: 250%;
+  margin-left: -63%;
 }
 .banner-icon-module row{
   width: 100%;
@@ -803,6 +818,11 @@ h4.regular.text-center.text-deal {
   .main-nav {
       background-color: gray;
   }
+  .video-1 {
+    height: 197px;
+    width: 250%;
+    margin-left: -63%;
+}
   }
   @supports ((position:-webkit-sticky) or (position:sticky)){
   .sticky-top {
