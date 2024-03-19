@@ -701,11 +701,7 @@ h4.regular.text-center.text-deal {
     margin-top: -125px;
     /* background-color: #EEEFF0; */
 }
-.video-1 {
-  height: 197px;
-  width: 250%;
-  margin-left: -63%;
-}
+
 .video-2 {
   height: 500px;
   width: 90%;
@@ -725,11 +721,7 @@ h4.regular.text-center.text-deal {
   .container {
     max-width: 540px;
   }
-  .video-1 {
-    height: 197px;
-    width: 250%;
-    margin-left: -63%;
-}
+ 
   
   /* new CSS */
   
@@ -940,10 +932,7 @@ figure.snip1157 {
     margin-top: -192px;
     margin-right: 322px;
 }
-.video-1 {
-  height: 550px;
-  width: 100%;
-}
+
 figure.snip1157 {
   font-family: 'Lato', sans-serif;
   position: relative;
