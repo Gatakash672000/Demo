@@ -1,0 +1,189 @@
+@media screen and (max-width: 1100px){
+    
+    .burger{
+        
+        position: absolute;
+        cursor: pointer;
+        right: 4%;
+        top: 3rem;
+        transform: translate(-5% , -50%);
+        z-index: 2;
+        outline: 1px  double;
+
+    }
+
+
+
+
+
+       
+    .lines {
+        width: 24px;
+        height: 3px;
+        background: rgba(0,0,0,.5);
+        margin: 5px;
+    }
+
+    .burger:focus-visible .lines{
+        transform-origin: 50% 50%;
+        animation: lines-grow ease-out 400ms   ;
+    }
+
+    .burger:hover .lines{
+        transform-origin: 50% 50%;
+        animation: lines-grow ease-out 400ms   ;
+    }
+    .burger:focus .lines{
+        transform-origin: 50% 50%;
+        animation: lines-grow ease-out 400ms   ;
+    }
+
+    @keyframes lines-grow{
+        0%{transform: scaleX(1);}
+        50%{transform: scaleX(1.5);}
+        100%{transform: scaleX(1);}
+    }
+
+    .row {
+   width: 100%;
+        flex-direction: column;
+      }
+
+    .col-6-1 {
+        padding-left: 0;
+    }
+    .logo-module {
+        width: auto;
+        display: flex;
+        padding: 1rem;
+        justify-content: left;
+        height: 80px;
+      }
+
+      .logo-module-ancor{
+        width: 50%;
+      }
+
+    .navbar-contact-details-module {
+      
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 0.4rem;
+   
+      }
+
+      .call-us-details {
+        width: 60%;
+      
+      }
+
+      .contact-style {
+        padding: 0.2rem;
+        padding-left: 0.2rem;
+        text-align: left;
+        padding-left: 7rem;
+      }
+
+     
+
+      .navbar-icon {
+        width: 60%;
+        padding: 0.2rem;
+        padding-left: 0.2rem;
+        text-align: left;
+        padding-left: 7rem;
+      }
+
+
+      .email-icon{
+        border: none;
+      }
+
+      .location-icon{
+        border: none;
+      }
+
+
+
+    .container-navbar{
+        position: relative;
+       
+     
+        
+    }
+
+    .media-navbar{
+        display: none;
+        pointer-events: none;
+    }
+
+    .media-navbar.open{
+        pointer-events: all;
+    
+        display: block;
+    }
+
+
+     .nav-list{
+        position: sticky;
+        height: auto;
+        width: 100%;
+        background:#60636D;
+        flex-direction: column;
+        
+        align-items: center;
+       
+
+        pointer-events: none;
+        display: none;
+    
+       
+    }
+
+  
+ 
+    .nav-list.open{
+       
+        pointer-events: all;
+        justify-content: space-evenly;
+        display: block;
+    }
+
+    .nav-list li {
+        opacity: 0;
+        justify-content: left;
+        display: flex;
+    }
+
+    .nav-list li a{
+
+        font-size: 12px;
+    }
+
+
+ 
+    li.fade{
+        opacity: 1;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+  
+        z-index: none;
+        border-radius: 4px;
+        margin-top: 0px;
+        padding: 2px;
+    
+        width: fit-content;
+      
+      
+      
+    }
+
+    .nav-list li .prime-nav:hover:before{
+       display: none;
+      
+      }
+
+}
