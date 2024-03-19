@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+@font-face {
+    font-family: lato-bold;
+    src: url("fonts/Lato-Bold.ttf");
+}
+@font-face {
+font-family: lato-regular;
+src: url("fonts/Lato-Regular.ttf");
+}
 body {
-    font-family: 'Lato', sans-serif;
     font-size: 12px;
     margin: 0;
     padding: 0;
@@ -70,13 +77,6 @@ body {
   
   .logo-module {
     width: 70%;
-  }
-  body {
-    font-family:'Lato', sans-serif;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
   }
   
   header {
@@ -184,18 +184,7 @@ body {
     justify-content: center;
   }
   
-@font-face {
-    font-family: lato-bold;
-    src: url("wp-content/themes/understrap-master/fonts/Lato-Bold.ttf");
-}
-@font-face {
-font-family: lato-regular;
-src: url("wp-content/themes/understrap-master/fonts/Lato-Regular.ttf");
-}
-@font-face {
-font-family: myrid-regular;
-src: url("wp-content/themes/understrap-master/fonts/Myriad-Pro-Regular.ttf");
-}
+
 .bold{
   font-family: lato-bold;
 }
@@ -476,7 +465,7 @@ padding-right: 14px;
     }
 
     .style-202 {
-        text-align: center; box-sizing:border-box; margin-top:0px; margin-bottom:16px;
+        text-align: center; box-sizing:border-box; margin-top:0px; margin-bottom:16px;display: table-column;
     }
 
     .style-203 {
@@ -3094,8 +3083,4 @@ padding-right: 14px;
     .style-856 {
         box-sizing:border-box;
     }
-    @media only screen and (max-width: 600px) {
-        .container {
-          padding: 10px;
-        }
-      }
+   

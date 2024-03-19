@@ -262,6 +262,8 @@ header {
   }
   /* Adjust styles for specific elements if needed */
 }
+
+
 @media screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
   .banner-img {
