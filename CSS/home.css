@@ -935,6 +935,25 @@ h4 .sub-section-div {
   width: 650%;
   margin-left: -223%;
 }
+.video-2 {
+  height: 0%;
+  width: 230%;
+  margin-left: -81%;
+  margin-top: 580%;
+}
+.button-1 {
+  background-color: #DC6523;
+  color: white;
+  padding: 8px 19px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 1px;
+  margin-top: 125%;
+  margin-left: -75%;
+  font-family: "Lato", sans-serif;
+  font-size: 15.5px;
+}
 .banner-icon-module row{
   width: 100%;
 }
@@ -954,8 +973,13 @@ h4 .sub-section-div {
   }
 
   .banner-icon-module .banner-icon-text {
-    margin-bottom: 10px; /* Add some space between icons */
+    margin-bottom: -13px;
   }
+  .banner-icon-module div img {
+    padding: 24px;
+    height: 20px;
+    position: relative;
+}
   .banner-icon-module{
     position: absolute;
     margin-left: 50px;
@@ -993,11 +1017,11 @@ h4 .sub-section-div {
 .slick-dotted.slick-slider {
   margin-bottom: 30px;
 }
-  .span {
-    margin-left: -29%;
-    position: absolute;
-    padding-bottom: 350%;
-    margin-top: 9%;
+.span {
+  margin-left: -29%;
+  position: absolute;
+  padding-bottom: 350%;
+  margin-top: 9%;
 }
 .span-1 {
   position: absolute;
@@ -1013,7 +1037,7 @@ h4 .sub-section-div {
   margin-top: -2%;
   padding-right: 3%;
 }
-.button-1 {
+/* .button-1 {
   background-color: #DC6523;
   color: white;
   padding: 8px 19px;
@@ -1025,7 +1049,7 @@ h4 .sub-section-div {
   margin-left: -81%;
   font-family: "Lato", sans-serif;
   font-size: 15.5px;
-}
+} */
 .button-2 {
   background-color: #DC6523;
   color: white;
@@ -1130,12 +1154,7 @@ h4.sub-section-div-I {
     width: 350%;
     margin-left: -123%;
 }
-.video-2 {
-  height: 0%;
-  width: 230%;
-  margin-left: -85%;
-  margin-top: 358%;
-}
+
 .span-video-2 {
   margin: 0px;
   padding: 0px;
@@ -1167,6 +1186,12 @@ h4.sub-section-div-I {
     .row {
       margin-left: 0px;
       margin-right: 0px;
+    }
+    .span {
+      margin-left: -29%;
+      position: absolute;
+      padding-bottom: 350%;
+      margin-top: 9%;
     }
     .video-1 {
       height: 262px;
