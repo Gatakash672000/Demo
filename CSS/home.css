@@ -1133,8 +1133,8 @@ h4.sub-section-div-I {
 .video-2 {
   height: 0%;
   width: 230%;
-  margin-left: -81%;
-  margin-top: 298%;
+  margin-left: -85%;
+  margin-top: 358%;
 }
 .span-video-2 {
   margin: 0px;
@@ -1256,24 +1256,21 @@ h4 {
   transform: translate(-50%, -50%);
   width: 45%;
 }
-  }
-  @media(max-width:991px){
-    .row {
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 50%;
-      margin-left: 30%;
-  }
-  h4.section-video-module {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    margin-top: 242%;
-    margin-left: 15%;
-    display: flex;
-    flex-wrap: nowrap;
+.row {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin-left: 30%;
 }
-
+h4.section-video-module {
+padding: 0px;
+margin: 0px;
+text-align: center;
+margin-top: 242%;
+margin-left: 15%;
+display: flex;
+flex-wrap: nowrap;
+}
   }
 @media (max-width: 1200px) {
   .container {
