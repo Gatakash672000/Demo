@@ -6,6 +6,11 @@
 
 /*/navbar/*/
 
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  color: #454a4e;
+}
 html, body {
  
   overflow-x: hidden;
@@ -169,25 +174,7 @@ header {
   padding-left: 15px;
 }
 
-/* .search-container {
-  display: flex;
-  align-items: center;
-} */
 
-/* .search-input {
-  padding: 8px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-} */
-
-/* .search-button {
-  padding: 8px;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-} */
 
 .icon-container {
   display: flex;
@@ -310,50 +297,142 @@ header {
   justify-content: center;
 }
 
+/* Navbar end  */
 
 
+/* section start */
 
-/* <!-- Content section css --> */
-.container {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 50px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.banner-section {
+  background: url(https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Printing-Services_Large-Format-Copying_Banner.png);
+
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-height: 300px;
+  z-index: -1;
+}
+
+.banner-section {
+  min-height: 300px !important;
+}
+
+
+.row-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.breadcrumb-common.light {
+  padding-top: 27px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+.ancor-for-section, .ancor-for-section:hover {
+  color: #344284;
+}
+
+.ancor-for-section:hover {
+ 
+  text-decoration: underline;
+}
+
+.ancor-for-section {
+  color: #53f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bold {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#heading_title {
+  margin-top: 320px;
+}
+#heading_title {
+  margin-top: 88px !important;
+}
+
+.section-font{
+  font-family: "Lato", sans-serif;
+}
+
 .regular {
   font-family: "Lato", sans-serif;
-  font-style: normal;
 }
 
-.lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-.h4 {
-    
-    margin-top: 0px;
-    color: #454a4e;
-    padding-top: 50px;
-    text-align: center ;
-    font-size: 22px;
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2;
+.text-deal {
+  margin-top: 0px;
 }
 
+.text-deal {
+  color: #454a4e;
+  padding-top: 50px;
+}
 
+.text-center {
+  text-align: center !important;
+}
 
+h4 {
+  font-size: 24px;
+}
+
+h4 {
+  margin-bottom: .5rem;
+
+  font-weight: 500;
+  line-height: 1.2;
+ 
+}
 .line {
   border-bottom: 3px solid;
   width: 40px;
   margin: 0 auto;
   color: #344284;
 }
+
+.common-width-style {
+  max-width: 800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.pt-0, .py-0 {
+  padding-top: 0 !important;
+}
+
+p.regular {
+  font-size: 15px;
+  line-height: 24px;
+}
+/* section end */
+
+
+/* i added 2 css property in my all page scection part which effect footer  */
+
+/* two important css  */
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .section-row {
 
   display: flex;
@@ -362,120 +441,12 @@ header {
   margin-left: -15px;
 }
 
-.main{
-    margin-top: 30px;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin: 2rem 0rem 1rem;
-    margin-top: 2rem;
-    color: #2F498A;
-    margin-top: -120px;
-    padding-top: 135px;
-    /* font-family: inherit; */
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-}
 
 
-p {
-    margin-top: 0;
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    margin-bottom: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    font-size: 100%;
-    color: #454a4e;
-}
 
 
-.brands-row {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.design{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-  }
-
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: .5rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #34383c;
-  }
-
-label {
-    display: inline-block;
-    margin-bottom: .5rem;
-  }
 
 
-input.FirstName {
-    font-size: 14px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 1px solid #9a9a9b;
-    line-height: 2;
-    margin-left: 10px;
-    min-width: 300px;
-  }
-
-input.LastName {
-    font-size: 14px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 1px solid #9a9a9b;
-    line-height: 2;
-    margin-left: 10px;
-    min-width: 300px;
-  }
-
-input.Email {
-    font-size: 14px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-bottom: 1px solid #9a9a9b;
-    line-height: 2;
-    margin-left: 10px;
-    min-width: 300px;
-    margin-left: 48px;
-  }
-
-
-input.SButton {
-  background-color: #dd6523;
-  color: #fff;
-  font-size: 14px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 20px;
-  text-transform: uppercase;
-  
-}
 
 
 /* ** Footer CSS ** */
@@ -494,6 +465,9 @@ footer {
   width: 100%;
   height: 1px;
 }
+
+
+
 
 .site-info {
   background-color: #fff;
@@ -736,33 +710,7 @@ a {
     }
   }
 
-  /* @media (min-width: 1199px) {
-    img.navbar-icon {
-      border-left: 2px solid #ececed;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      padding-left: 14px;
-      padding-right: 14px;
-    }
-  } */
 
-  /* @media (min-width: 1199px) {
-    .navbar-icon {
-      border-left: 2px solid #ececed;
-      border-right: 2px solid #ececed;
-    }
-  } */
-
-
-  /* @media (min-width: 1199px) {
-    img.navbar-icon {
-      border-left: 2px solid #ececed;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      padding-left: 14px;
-      padding-right: 14px;
-    }
-  } */
   @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
