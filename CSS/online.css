@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
         body {
-            font-family: lato-regular;
+          font-family: lato-regular;
+          
             font-size: 100%;
             color: #454a4e;
         }
@@ -8,6 +9,7 @@
                 /* Add any styles for the section here */
                 background-color: white;
                 padding: 60px; /* Add padding to create space between the images and the container edges */
+                margin-bottom: -3%;
             }
     
             .row.gaps {
@@ -17,15 +19,22 @@
             }
     
             .first-planroom {
-                text-align: center;
-                margin-bottom: 20px;
-                width: calc(33.333%  90px); /* Adjust width as needed and consider margins */
-                margin: 20px; /* Add margin between images */
-                background-color: white; /* Set background color for individual image containers */
-                padding: 60px; /* Add padding to create space between the image and its container edges */
-                border: 2px solid #eeeff0;
-}
-    
+              text-align: center;
+              margin-bottom: 20px;
+              width: calc(33.333% 90px);
+              margin: 2px;
+              background-color: white;
+              padding: 0px;
+              border: 3px solid #eeeff0;
+              margin-bottom: 12%;
+          }
+          .first-planroom:hover {
+            border-color: #CD5F14;
+        }
+        #w2v-165{
+          background-color:  #CD5F14;
+              color: white;
+        }
             .planroom-section-links img {
                 width: 100%;
                 max-width: 100%;
@@ -33,13 +42,22 @@
                 max-height: 200px; /* Set medium size as per your requirement */
                 size:100px
             }
-    
+            .planroom-section-links img:hover {
+              border-color: #CD5F14; /* Change border color on hover to yellow */
+          }
             .planroom-section-links p {
-                background-color: #cd5f22;
-                color: white;
-                padding: 20px;
-            }
-    
+              background-color: lightgray;
+              color: white;
+              padding: 12px 30px;
+              margin-bottom: 0;
+              color: black;
+              font-family: "Lato", sans-serif;
+              text-align: center;
+              font-weight: 550;
+          }
+          .planroom-section-links p:hover {
+            background-color: #CD5F14; /* Change to the desired color */
+        }
             .col-md-4 {
                 flex: 0 0 calc(33.333% - 20px); /* Adjust width as needed and consider margins */
                 max-width: calc(33.333% - 20px);
@@ -50,15 +68,37 @@
             .iowa-link a {
                 /* Add any styles for the Iowa link here */
             }
-
+            .btn {
+              border: none;
+              padding: 16px 32px;
+              text-align: center;
+              font-size: 15px;
+              margin: 4px 2px;
+              transition: 0.3s;
+              background-color: #344284;
+              color: white;
+              margin-left: 10%;
+              margin-top: -5%;
+              font-family: lato-bold;
+            }
+                 .btn-1{
+                  background-color: #dd6523;
+                  color: #fff;
+                  font-size: 14px;
+                  border: none;
+                  border-radius: 5px;
+                  padding: 12px 30px;
+                  font-family: lato-bold;
+                  }
+              
             /*2 section*/
             /* Styles for the online-planrooms-hero section */
             .online-planrooms-hero {
               background-color: #f0f0f0;
               padding: 20px;
-              text-align: center; /* Center-align the content within the section */
-            }
-            
+              text-align: center;
+              margin-bottom: -5%;
+          }
             /* Styles for the container within the online-planrooms-hero section */
             .online-planrooms-hero .container {
               max-width: 1200px; /* Adjust the maximum width as needed */
@@ -98,6 +138,7 @@
               z-index: 1;
               margin-left: 2px; /* Add a 2px gap to the left of the paragraph */
             }
+            
             @media only screen and (max-width: 767px) {
     
                 .planroom-section-links {
@@ -123,15 +164,21 @@
                 top: 0;
                 margin-right: 2px;
             }
-              .first-planroom {
+            .first-planroom {
               text-align: center;
               margin-bottom: 20px;
               width: calc(33.333% 90px);
-              margin: 20px;
+              margin: -13px;
               background-color: white;
-              padding: 0px;
+              padding: 7px;
               border: 2px solid #eeeff0;
-              }
+          }
+          .planroom-section-links p:hover {
+            background-color: #CD5F14; /* Change to the desired color */
+        }
+        .planroom-section-links img:hover {
+              border-color: #CD5F14; /* Change border color on hover to yellow */
+          }
               .online-planrooms-hero .row {
                 display: contents;
                 flex-wrap: nowrap;
@@ -141,4 +188,4 @@
                 display: block;
             }
               }
-            
+             

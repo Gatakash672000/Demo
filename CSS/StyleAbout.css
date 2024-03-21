@@ -10,12 +10,11 @@ html, body {
  
   overflow-x: hidden;
   margin: 0%;
+  font-family: lato,sans-serif;
 }
-
 ul, li {
   list-style: none;
 }
-
 .js-slider {
   text-align: center;
   position: relative;
@@ -23,14 +22,12 @@ ul, li {
   overflow: hidden;
   margin: 0px;
 }
-
 .section-1-ul {
   font-size: 12px;
   line-height: 300px;
   color: white;
   white-space: nowrap; /* Prevents line break for inline-block elements */
 }
-
 .js-slider li {
   display: inline-block; /* Display images in a row */
   height: 600px;
@@ -38,13 +35,11 @@ ul, li {
   background: white;
   overflow: hidden; /* Hide any overflowing content */
 }
-
 .js-slider img {
   height: 100%; /* Set height to 100% of parent container */
   width: 100%; /* Maintain aspect ratio */
   object-fit: cover; /* Resize image while maintaining aspect ratio, cropping if necessary */
 }
-
 .js-slider > .next, .js-slider > .prev {
   position: absolute;
   top: 50%;
