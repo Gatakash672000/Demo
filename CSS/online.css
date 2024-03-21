@@ -132,5 +132,13 @@
               padding: 0px;
               border: 2px solid #eeeff0;
               }
+              .online-planrooms-hero .row {
+                display: contents;
+                flex-wrap: nowrap;
+                /* justify-content: center; */
+                gap: 73px;
+                margin-left: 31%;
+                display: block;
+            }
               }
             

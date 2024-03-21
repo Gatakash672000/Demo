@@ -44,19 +44,20 @@
         100%{transform: scaleX(1);}
     }
 
-    
+    .row {
+        width: 100%;
+             flex-direction: column;
+           }
     .col-6-1 {
         padding-left: 0;
     }
     .logo-module {
-      width: 200%;
-      display: block;
-      padding: 1rem;
-      justify-content: left;
-      height: 96px;
-      margin-left: -213%;
-      margin-top: 0%;
-  }
+        width: auto;
+        display: flex;
+        padding: 1rem;
+        justify-content: left;
+        height: 80px;
+      }
 
       .logo-module-ancor{
         width: 50%;

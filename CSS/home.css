@@ -830,10 +830,6 @@ h4 .sub-section-div {
   font-family: "Lato", sans-serif;
   font-size: 15.5px;
 }
-
-[class*="col-"] {
-  width: 100%;
-}
 /* footer CSS */
 footer {
   display: block;
@@ -918,7 +914,7 @@ h4.regular.text-center.text-deal {
   cursor: pointer;
   margin: 1px;
   margin-top: 125%;
-  margin-left: -75%;
+  margin-left: -60%;
   font-family: "Lato", sans-serif;
   font-size: 15.5px;
 }
@@ -932,7 +928,9 @@ h4.regular.text-center.text-deal {
 
   .banner-icon-module .banner-icon-text {
     margin-bottom: -18px;
-  }
+    display: table-caption;
+    width: 100%;
+}
 .banner-icon-module div img {
     padding: 24px;
     height: 25px;
@@ -960,6 +958,10 @@ h4.regular.text-center.text-deal {
   margin: auto;
   width: 80%;
   max-width: 80%;
+}
+.testimonial {
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .video-container {
@@ -1078,9 +1080,9 @@ h4.sub-section-div-I {
 @media (max-width: 767px) {
   .brands-row img {
     padding: 20px;
-    padding: 20px;
-    width: 80%;
-    margin-left: -20%;
+    padding: 54px;
+    width: 67%;
+    margin-left: -38%;
 }
   }
   .line-module {
