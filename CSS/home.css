@@ -635,8 +635,10 @@ img,
 img.wp-post-image {
   max-width: 100%;
   height: auto;
-  /* margin-left: 10px; */
+  margin-left: 24px;
+  /* margin-right: -123%; */
 }
+
 
 .brands-row {
   margin-top: 40px;
@@ -875,11 +877,6 @@ footer#colophon p, footer#colophon a {
 
 
 
-  @media (min-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
-  }
 @media only screen and (max-width: 600px) {
   .banner-slider-text-module {
     padding: 0px;
