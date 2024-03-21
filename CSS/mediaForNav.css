@@ -45,9 +45,10 @@
     }
 
     .row {
-        width: 100%;
-             flex-direction: column;
-           }
+   width: 100%;
+        flex-direction: column;
+      }
+
     .col-6-1 {
         padding-left: 0;
     }
@@ -81,7 +82,6 @@
         padding-left: 0.2rem;
         text-align: left;
         padding-left: 7rem;
-        margin-left: -300%;
       }
 
      
@@ -92,7 +92,6 @@
         padding-left: 0.2rem;
         text-align: left;
         padding-left: 7rem;
-        margin-left: -118%;
       }
 
 

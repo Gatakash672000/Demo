@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Navbar CSS */
+
+
+
+/*/navbar/*/
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  color: #454a4e;
+}
+
+html, body {
+ 
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.js-slider {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.section-1-ul {
+  font-size: 12px;
+  line-height: 300px;
+  color: white;
+  white-space: nowrap; /* Prevents line break for inline-block elements */
+}
+
+.js-slider li {
+  display: inline-block; /* Display images in a row */
+  height: 600px;
+  width: 100%; /* Ensure each li takes up the full width */
+  background: white;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.js-slider img {
+  height: 100%; /* Set height to 100% of parent container */
+  width: 100%; /* Maintain aspect ratio */
+  object-fit: cover; /* Resize image while maintaining aspect ratio, cropping if necessary */
+}
+
+.js-slider > .next, .js-slider > .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.js-slider > .prev {
+  left: 0;
+}
+
+.js-slider > .next {
+  right: 0;
+}
+
+.dot-container {
+  text-align: center;
+  
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: black;
+}
+
+/*/section-2/*/
+.section-2{
+  padding: 0%;
+  margin: 30px;
+}
+.container-navbar {
+  max-width: 12000px;
+  margin: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+h4{
+  margin: 40px;
+  text-align: center;
+  font-size: 22px;
+}
+/*/navbar/*/
+
+.container-navbar {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.navbar-contact-details-module {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.call-us-details {
+  width: 100%;
+}
+
+
+.contact-style {
+  font-size: 16px;
+  margin: 0rem 0rem 0rem;
+  padding-top: 0px;
+  font-family: "Lato", sans-serif;
+
+}
+
+.contact-style a:hover {
+  color: #DD6522;
+}
+
+.navbar-icon {
+  width: 100%;
+  text-align: left;
+  padding-left: 5px;
+}
+.logo-module {
+  width: 45%;
+}
+
+
+header {
+  background-color: #fff;
+  color: #60636d;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-6-1{
+  padding-left: 185px;
+}
+
+.col-6{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+.icon-container {
+  display: flex;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.email-icon {
+  border-left: 2px solid #ececed;
+  border-right: 2px solid #ececed;
+  border-top: 2px solid #ececed;
+  border-bottom: 2px solid #ececed;
+ 
+  padding: 5px;
+
+}
+
+.location-icon{
+  border-left: 2px solid #ececed;
+  border-right: 2px solid #ececed;
+  border-top: 2px solid #ececed;
+  border-bottom: 2px solid #ececed;
+  padding: 5px;
+}
+
+/* Styling for navigation links and dropdowns */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: small;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-list a  {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #fff; /* Change text color for better visibility */
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.nav-list li .prime-nav::before{
+  content: '';
+  display: block;
+  height: 2px;
+  background:#cd642b;
+  position: absolute;
+  /* top: -.75em;  */
+  bottom: -.75em; 
+  left: 0;
+  right: 0;
+  transform: scale(0,1);
+  /* transform-origin: right; */
+  /* transform-origin: left; */
+  transition: transform ease-in-out 250ms;
+
+}
+
+.nav-list li .prime-nav:hover:before{
+  transform: scale(1,1);
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+  margin-top: 0px;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  width: max-content;
+
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu-bar {
+  background-color: #60636d;
+  width: 100%;
+}
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/* Navbar end  */
+
+/* section-middle start */
+.banner-section {
+  background: url(https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Printing-Services_Scanning_Banner.png);
+    background-repeat: repeat;
+    background-size: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  max-height: 300px;
+  z-index: -1;
+}
+
+
+.banner-section {
+  min-height: 300px !important;
+}
+
+
+.row-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.breadcrumb-common.light {
+  padding-top: 27px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+.ancor-for-section, .ancor-for-section:hover {
+  color: #344284;
+}
+
+.ancor-for-section:hover {
+ 
+  text-decoration: underline;
+}
+
+.ancor-for-section {
+  color: #53f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.bold {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#heading_title {
+  margin-top: 320px;
+}
+#heading_title {
+  margin-top: 88px !important;
+}
+
+.section-font{
+  font-family: "Lato", sans-serif;
+}
+
+.regular {
+  font-family: "Lato", sans-serif;
+}
+
+.text-deal {
+  margin-top: 0px;
+}
+
+.text-deal {
+  color: #454a4e;
+  padding-top: 50px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h4 {
+  margin-bottom: .5rem;
+
+  font-weight: 500;
+  line-height: 1.2;
+ 
+}
+.line {
+  border-bottom: 3px solid;
+  width: 40px;
+  margin: 0 auto;
+  color: #344284;
+}
+
+.common-width-style {
+  max-width: 800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.pt-0, .py-0 {
+  padding-top: 0 !important;
+}
+
+p.regular {
+  font-size: 15px;
+  line-height: 24px;
+}
+/* section middle end */
+
+
+/* i added 2 css property in my all page scection part which effect footer  */
+
+/* two important css  */
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-row {
+
+  display: flex;
+ 
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+
+
+
+
+
+
+/* ** Footer CSS ** */
+
+footer {
+  display: block;
+}
+.line1 {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line2 {
+  background-color: #60636D;
+  width: 100%;
+  height: 1px;
+}
+
+
+
+
+.site-info {
+  background-color: #fff;
+ 
+}
+
+.site-info .container {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+
+
+.col-md-6{
+
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+footer#colophon p, footer#colophon a {
+  font-size: 14px;
+ 
+}
+
+
+.bold {
+  font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.footer-head {
+  color: #344284;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #344284;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.newsletter-p {
+  color: #454a4e;
+  margin-bottom: 20px;
+}
+
+.col-md-12{
+
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.text-center{
+  text-align: center;
+}
+
+.social-link {
+  text-align: center;
+}
+
+
+
+.terms-link {
+  background-color: #eeeff0;
+ 
+}
+
+.terms-link .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  text-align: left;
+}
+
+.footerleft {
+  margin-bottom: 0px;
+  color: #41494d;
+  font-size: 12px !important;
+}
+
+
+p {
+  margin-top: 0;
+ 
+}
+
+.right-link a {
+  font-size: 12px !important;
+  color: #41494d;
+}
+
+.sitemap, .terms {
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+.terms {
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+a {
+
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+
+
+ @media ( max-width : 576px) {
+  .main {
+  
+    padding: 1rem;
+  }
+ }
+
+
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .brands-row img {
+      padding: 20px;
+      padding: 20px;
+    width: 25%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .col-md-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .terms-link .right-link {
+      text-align: right;
+    }
+  }
+
+@media (min-width: 768px) {
+  .social-link {
+    margin: 10px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 768px) {
+  .design {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+}
+
+    @media (max-width: 768px) {
+      .section-row {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+
+    
+    @media (min-width: 768px) {
+      .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+
+    @media(max-width:991px){
+      .section-row {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+
+
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      -webkit-box-flex: 0;
+    
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%;
+    }
+  }
+
+ 
+  @media (min-width: 1199px) {
+    .contact-style {
+      border-top: 2px solid #ececed;
+      border-bottom: 2px solid #ececed;
+      border-left: 2px solid #ececed;
+      border-right: 2px solid #ececed;
+      padding: 7px 0px;
+     
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+  }
+
+
+ 
+
+
+
+
