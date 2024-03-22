@@ -46,7 +46,7 @@
 
     .row {
    width: 100%;
-        flex-direction: column;
+        /* flex-direction: column; */
       }
 
     .col-6-1 {

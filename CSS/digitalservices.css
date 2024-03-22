@@ -3021,9 +3021,24 @@ src: url("fonts/Lato-Regular.ttf");
             width: 100%;;
         }
         .style-407 {
-            width: 100%;
-            margin-left: 50.5%;
-    }
+            width: 113%;
+            margin-left: 46%;
+        }
+        .style-179 {
+            min-height: 332px;
+            align-items: center;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            box-sizing: border-box;
+            text-align: justify;
+            margin-left: 74px;
+        }
+        .style-178 {
+            width: 1519px;
+            
+        }
         .style-438 {
             text-align: center;
         }
@@ -3062,10 +3077,42 @@ src: url("fonts/Lato-Regular.ttf");
         }
         .style-465 {
             box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: -102px;
+    color: white;
+    margin-left: 12%;
+    MARGIN-RIGHT: 16%;
+        }
+        .style-476 {
+            color: rgb(255, 255, 255);
+            font-family: Lato, sans-serif;
+            font-size: 33px;
+            font-weight: 500;
+            line-height: 50px;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        .style-435 {
+            box-sizing: border-box;
             margin-top: 0px;
             margin-bottom: 16px;
             color: white;
-            margin-left: 4%;
+            text-align: center;
+            margin-right: -50px;
+        }
+        .style-479 {
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-left: 30px;
+            margin-right: 35px;
         }
         .style-437 {
             padding: 10px;
@@ -3085,6 +3132,20 @@ src: url("fonts/Lato-Regular.ttf");
             line-height: 28px;
             --swiper-theme-color: #000;
             margin-left: 10%;
+        }
+        .style-462 {
+            color: rgb(255, 255, 255);
+            font-family: Lato, sans-serif;
+            font-size: 33px;
+            font-weight: 500;
+            line-height: 50px;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0%;
+            text-align: center;
         }
         
        }
