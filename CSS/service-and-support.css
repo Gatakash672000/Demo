@@ -386,6 +386,22 @@ header {
     color: #fff;
   }
 
+  .ancor-for-section, .ancor-for-section:hover {
+    color: #344284;
+  }
+  
+  .ancor-for-section:hover {
+   
+    text-decoration: underline;
+  }
+  
+  .ancor-for-section {
+    color: #53f;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+
   body {
 
     font-weight: 400;
@@ -416,13 +432,13 @@ header {
     background-color: transparent;
   }
 
-  a {
+  /* a {
 
     color: #344284;
   }
   a, a:hover {
     color: #344284;
-  }
+  } */
 
   .bold {
     font-family: "Lato", sans-serif;
@@ -430,7 +446,7 @@ header {
 
   }
 
-  .font-style-for-section1{
+  .section-font{
     font-family: "Lato", sans-serif;
   }
 
